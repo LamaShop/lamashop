@@ -1,0 +1,105 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "list": [
+            {
+                "goods_id": "58731",
+                "goods_thumb": "http://s08.lmbang.com/M00/08/36/DpgiA1fWSH2ASrjXAAMKveybK7A737.jpg!c300x300x100.jpg",
+                "goods_name": "保税区直发 澳大利亚Devondale德运全脂脱脂奶粉组合装1kg*2",
+                "shop_price": "128.00",
+                "sold_number": 99,
+                "comment_number": "3",
+                "is_sale": "1",
+                "country_img": "http://s02.lmbang.com/M00/1F/A5/eQ519FP8Px2ADhhCAAAKThb3ANk678.png",
+                "market_price": "161.00",
+                "discount_rate": "7.9"
+            },
+            {
+                "goods_id": "47071",
+                "goods_thumb": "http://s07.lmbang.com/M00/B4/70/DpgiA1bY99-AHM5uAAL7beR1RIY071.jpg!c300x300x100.jpg",
+                "goods_name": "【包邮】澳洲进口 德运高钙脱脂成人奶粉两包装",
+                "shop_price": "144.00",
+                "sold_number": 163,
+                "comment_number": "2",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "218.00",
+                "discount_rate": "6.6"
+            },
+            {
+                "goods_id": "47070",
+                "goods_thumb": "http://s08.lmbang.com/M00/B4/71/DpgiA1bY-gOAFT3zAAReeAHL8yc086.jpg!c300x300x100.jpg",
+                "goods_name": "【包邮】澳洲进口 德运全脂奶粉 成人高钙速溶 奶粉两包",
+                "shop_price": "115.00",
+                "sold_number": 169,
+                "comment_number": "1",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "218.00",
+                "discount_rate": "5.3"
+            },
+            {
+                "goods_id": "35148",
+                "goods_thumb": "http://s01.lmbang.com/M00/5F/94/ecloA1ZBn8SAIgGEAAMKc-edBUQ524.jpg!c300x300x100.jpg",
+                "goods_name": "【包邮】澳洲进口 德运全脂奶粉 成人高钙速溶 奶粉1kg",
+                "shop_price": "58.00",
+                "sold_number": 543,
+                "comment_number": "8",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "109.00",
+                "discount_rate": "5.3"
+            },
+            {
+                "goods_id": "35147",
+                "goods_thumb": "http://s07.lmbang.com/M00/78/C5/DpgiA1ZBocqAIzHfAALuI5Jd_Dw439.jpg!c300x300x100.jpg",
+                "goods_name": "【包邮】澳洲进口 德运高钙脱脂成人奶粉",
+                "shop_price": "58.00",
+                "sold_number": 519,
+                "comment_number": "5",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "109.00",
+                "discount_rate": "5.3"
+            },
+            {
+                "goods_id": "17909",
+                "goods_thumb": "http://s07.lmbang.com/M00/FD/FF/tzlM81WfgHiALPO_AANoV-4ws1k544.gif!c300x300x100.gif",
+                "goods_name": "【保税区直发】 澳大利亚Devondale 德运高钙全脂成人牛奶粉 1kg 2包发",
+                "shop_price": "67.00",
+                "sold_number": 2411,
+                "comment_number": "95",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "111.00",
+                "discount_rate": "6.0"
+            },
+            {
+                "goods_id": "17902",
+                "goods_thumb": "http://s07.lmbang.com/M00/11/10/DpgiA1Wffv-AVT9aAAMHk8A5D8M805.gif!c300x300x100.gif",
+                "goods_name": "【保税区直发】 澳大利亚Devondale 德运脱脂高钙成人奶粉1KG 2包发",
+                "shop_price": "67.00",
+                "sold_number": 2321,
+                "comment_number": "85",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "111.00",
+                "discount_rate": "6.0"
+            },
+            {
+                "goods_id": "5924",
+                "goods_thumb": "http://s06.lmbang.com/M00/B4/90/DpgiA1U7HpGAX0MDAANxx09-Ork974.jpg!c300x300x100.jpg",
+                "goods_name": "澳洲直邮 Devondale德运 高钙全脂成人奶粉 1kg 免邮",
+                "shop_price": "105.00",
+                "sold_number": 1291,
+                "comment_number": "136",
+                "is_sale": 1,
+                "country_img": "http://s02.lmbang.com/M00/1F/A5/eQ519FP8Px2ADhhCAAAKThb3ANk678.png",
+                "market_price": "165.00",
+                "discount_rate": "6.4"
+            }
+        ]
+    },
+    "timestamp": 1482396795
+}

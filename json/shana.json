@@ -1,0 +1,105 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "list": [
+            {
+                "goods_id": "54385",
+                "goods_thumb": "http://s03.lmbang.com/M00/C9/35/ecloD1dstAaARTebAACAAp6P3lA648.png!c300x300x100.png",
+                "goods_name": "【保税直发】日本SANA/莎娜 豆乳美肌Q10弹力光泽洗面奶 150g",
+                "shop_price": "72.00",
+                "sold_number": 262,
+                "comment_number": "2",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "118.00",
+                "discount_rate": "6.1"
+            },
+            {
+                "goods_id": "54383",
+                "goods_thumb": "http://s06.lmbang.com/M00/CF/D5/ecloA1dss5WAXriXAACAAtVdJf0242.png!c300x300x100.png",
+                "goods_name": "【保税直发】日本SANA/莎娜 豆乳美肌Q10弹力光泽保湿乳液 150ml",
+                "shop_price": "108.00",
+                "sold_number": 149,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "155.00",
+                "discount_rate": "7.0"
+            },
+            {
+                "goods_id": "54328",
+                "goods_thumb": "http://s07.lmbang.com/M00/E8/D3/DpgiA1drtnaALlxIAABAAmW0Nic441.png!c300x300x100.png",
+                "goods_name": "【保税直发】日本SANA/莎娜 豆乳美肌保湿化妆水 200ml",
+                "shop_price": "77.00",
+                "sold_number": 211,
+                "comment_number": "1",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "121.00",
+                "discount_rate": "6.3"
+            },
+            {
+                "goods_id": "54324",
+                "goods_thumb": "http://s02.lmbang.com/M00/E8/D3/DpgiA1drtWqABearAADAAlZeTPY464.jpg!c300x300x100.jpg",
+                "goods_name": "【保税直发】日本SANA/莎娜 豆乳美肌保湿化妆水（浓润型）200ml",
+                "shop_price": "126.00",
+                "sold_number": 168,
+                "comment_number": "3",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "129.00",
+                "discount_rate": "9.7"
+            },
+            {
+                "goods_id": "54290",
+                "goods_thumb": "http://s07.lmbang.com/M00/C8/E7/ecloD1drpgGALXMBAABAAkQVOhU394.png!c300x300x100.png",
+                "goods_name": "【保税直发】日本SANA/莎娜 豆乳美肌保湿乳液 150ml",
+                "shop_price": "77.00",
+                "sold_number": 232,
+                "comment_number": "2",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "121.00",
+                "discount_rate": "6.3"
+            },
+            {
+                "goods_id": "54288",
+                "goods_thumb": "http://s01.lmbang.com/M00/CF/88/ecloA1drpaiAXzQgAAEAAo0BpBg048.jpg!c300x300x100.jpg",
+                "goods_name": "【保税直发】日本SANA/莎娜 豆乳美肌浓润滋养霜 面霜 50g",
+                "shop_price": "82.00",
+                "sold_number": 216,
+                "comment_number": "2",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "128.00",
+                "discount_rate": "6.4"
+            },
+            {
+                "goods_id": "54264",
+                "goods_thumb": "http://s02.lmbang.com/M00/CF/83/ecloA1drnhCAB70fAACAAkUkAhg470.jpg!c300x300x100.jpg",
+                "goods_name": "【保税直发】日本SANA/莎娜 抗痘专用美背白皙美容喷雾 300ml*2支",
+                "shop_price": "159.00",
+                "sold_number": 154,
+                "comment_number": "3",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "207.00",
+                "discount_rate": "7.7"
+            },
+            {
+                "goods_id": "54291",
+                "goods_thumb": "http://s04.lmbang.com/M00/D4/9A/ecloA1d8s5uAes3YAADAApqAJ_U647.jpg!c300x300x100.jpg",
+                "goods_name": "【保税直发】日本SANA/莎娜 豆乳美肌洁面乳 洗面奶 150g",
+                "shop_price": "60.00",
+                "sold_number": 268,
+                "comment_number": "9",
+                "is_sale": "0",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "112.00",
+                "discount_rate": "5.4"
+            }
+        ]
+    },
+    "timestamp": 1482395956
+}

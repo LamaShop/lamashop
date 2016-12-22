@@ -1,0 +1,105 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "list": [
+            {
+                "goods_id": "57457",
+                "goods_thumb": "http://s02.lmbang.com/M00/01/FC/DpgiA1e-W0-AI4hnAAGDhauGZAU013.jpg!c300x300x100.jpg",
+                "goods_name": "多美滋精确优蕴900g奶粉",
+                "shop_price": "141.00",
+                "sold_number": 92,
+                "comment_number": "1",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "188.00",
+                "discount_rate": "7.5"
+            },
+            {
+                "goods_id": "56574",
+                "goods_thumb": "http://s02.lmbang.com/M00/FB/5E/DpgiA1ekS_-AQ5sTAAH-Xg70a0Y026.jpg!c300x300x100.jpg",
+                "goods_name": "多美滋dumex精确盈养儿童配方奶粉 4段 400g*3多联包（36个月以上）",
+                "shop_price": "142.40",
+                "sold_number": 93,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "300.00",
+                "discount_rate": "4.7"
+            },
+            {
+                "goods_id": "56573",
+                "goods_thumb": "http://s06.lmbang.com/M00/FB/5E/DpgiA1ekS5KANkvPAAHynDVeZF4506.jpg!c300x300x100.jpg",
+                "goods_name": "多美滋dumex精确盈养幼儿配方奶粉 3段 400g*3多联包（12-36个月）",
+                "shop_price": "166.40",
+                "sold_number": 107,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "208.00",
+                "discount_rate": "8.0"
+            },
+            {
+                "goods_id": "56572",
+                "goods_thumb": "http://s03.lmbang.com/M00/E2/1A/ecloA1ekSw-ABeaKAAILbK0V4ZY059.jpg!c300x300x100.jpg",
+                "goods_name": "多美滋dumex精确盈养较大婴儿配方奶粉 2段 400g*3多联包（6-12个月）",
+                "shop_price": "198.40",
+                "sold_number": 109,
+                "comment_number": "1",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "248.00",
+                "discount_rate": "8.0"
+            },
+            {
+                "goods_id": "56571",
+                "goods_thumb": "http://s05.lmbang.com/M00/FB/5E/DpgiA1ekSoOAfvgdAAFvcHYxbBA775.jpg!c300x300x100.jpg",
+                "goods_name": "多美滋dumex精确盈养儿童配方奶粉 4段（36个月以上）",
+                "shop_price": "126.40",
+                "sold_number": 86,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "200.00",
+                "discount_rate": "6.3"
+            },
+            {
+                "goods_id": "56570",
+                "goods_thumb": "http://s04.lmbang.com/M00/FB/5B/DpgiA1ekRbOAD6EEAAFp8L8kvAw860.jpg!c300x300x100.jpg",
+                "goods_name": "多美滋dumex精确盈养幼儿配方奶粉 3段（12-36个月）",
+                "shop_price": "142.40",
+                "sold_number": 105,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "220.00",
+                "discount_rate": "6.5"
+            },
+            {
+                "goods_id": "56568",
+                "goods_thumb": "http://s05.lmbang.com/M00/DB/75/ecloD1ekQYqAPduSAAFv3Q2r9dY164.jpg!c300x300x100.jpg",
+                "goods_name": "多美滋dumex精确盈养心护婴儿配方奶粉 1段 900g （0-6个月）",
+                "shop_price": "178.00",
+                "sold_number": 87,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "198.00",
+                "discount_rate": "9.0"
+            },
+            {
+                "goods_id": "56565",
+                "goods_thumb": "http://s04.lmbang.com/M00/E2/14/ecloA1ekPQSAZGfGAAGDpEODXvQ148.jpg!c300x300x100.jpg",
+                "goods_name": "多美滋dumex致粹新护婴儿配方乳粉 1段 900g（0-6个月）",
+                "shop_price": "241.20",
+                "sold_number": 38,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "268.00",
+                "discount_rate": "9.0"
+            }
+        ]
+    },
+    "timestamp": 1482396747
+}

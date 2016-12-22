@@ -1,0 +1,117 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "list": [
+            {
+                "goods_id": "56764",
+                "goods_thumb": "http://s05.lmbang.com/M00/DB/54/ecloD1ej8VKAXpu2AAJZ9eQObYE178.jpg!c300x300x100.jpg",
+                "goods_name": "日本DotFree多富丽 玻尿酸密集水润洁面乳100g 保湿白皙",
+                "shop_price": "39.00",
+                "sold_number": 151,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "48.00",
+                "discount_rate": "8.1"
+            },
+            {
+                "goods_id": "56558",
+                "goods_thumb": "http://s08.lmbang.com/M00/FB/39/DpgiA1ej9AuASdHuAASbgOo-BCc686.jpg!c300x300x100.jpg",
+                "goods_name": "日本DotFree多富丽 玻尿酸密集水润面膜5片 柔滑保湿补水",
+                "shop_price": "88.00",
+                "sold_number": 149,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "110.00",
+                "discount_rate": "8.0"
+            },
+            {
+                "goods_id": "56557",
+                "goods_thumb": "http://s08.lmbang.com/M00/DB/54/ecloD1ej8fiAT_vlAAFYbqApe6M606.jpg!c300x300x100.jpg",
+                "goods_name": "日本DotFree多富丽 玻尿酸密集滋润补水精华液肌底液50ml",
+                "shop_price": "109.00",
+                "sold_number": 82,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "138.00",
+                "discount_rate": "7.9"
+            },
+            {
+                "goods_id": "56555",
+                "goods_thumb": "http://s04.lmbang.com/M00/FB/38/DpgiA1ej8FSABn1kAAFpVng2NSo858.jpg!c300x300x100.jpg",
+                "goods_name": "日本DotFree多富丽 胶原肽爽肤水精华液50ml 精华弹力肌肤系",
+                "shop_price": "109.00",
+                "sold_number": 82,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "138.00",
+                "discount_rate": "7.9"
+            },
+            {
+                "goods_id": "56554",
+                "goods_thumb": "http://s07.lmbang.com/M00/FB/37/DpgiA1ej73-AM0A8AAFV4wZgUZI622.jpg!c300x300x100.jpg",
+                "goods_name": "日本Dotfree多富丽胶原肽紧肤洗面乳洁面乳奶100g 紧致",
+                "shop_price": "39.00",
+                "sold_number": 163,
+                "comment_number": "1",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "48.00",
+                "discount_rate": "8.1"
+            },
+            {
+                "goods_id": "56552",
+                "goods_thumb": "http://s08.lmbang.com/M00/E1/F2/ecloA1ej7WyASgzyAAE-ETi7kLE363.jpg!c300x300x100.jpg",
+                "goods_name": "日本Dotfree多富丽Q10柔滑嫩肌底液50ml 精华液化妆水补水保湿",
+                "shop_price": "109.00",
+                "sold_number": 80,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "138.00",
+                "discount_rate": "7.9"
+            },
+            {
+                "goods_id": "56551",
+                "goods_thumb": "http://s08.lmbang.com/M00/FA/FB/DpgiA1ei84WAUed8AAF32Fh67oU626.jpg!c300x300x100.jpg",
+                "goods_name": "日本Dotfree多富丽 Q10柔滑嫩肤洁面乳洗面奶清洁滋润保湿不紧绷",
+                "shop_price": "39.00",
+                "sold_number": 160,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "",
+                "market_price": "48.00",
+                "discount_rate": "8.1"
+            },
+            {
+                "goods_id": "56556",
+                "goods_thumb": "http://s03.lmbang.com/M00/DB/53/ecloD1ej8EaAGGg0AALRhni19hY239.jpg!c300x300x100.jpg",
+                "goods_name": "日本Dotfree多富丽 胶原肽紧肤面膜23ml*5片 白皙补水",
+                "shop_price": "88.00",
+                "sold_number": 149,
+                "comment_number": "0",
+                "is_sale": "0",
+                "country_img": "",
+                "market_price": "110.00",
+                "discount_rate": "8.0"
+            },
+            {
+                "goods_id": "56553",
+                "goods_thumb": "http://s08.lmbang.com/M00/E1/F3/ecloA1ej7oKARDGqAAL4FWBv7Ko893.jpg!c300x300x100.jpg",
+                "goods_name": "日本Dotfree多富丽Q10柔滑嫩肤面膜5片 补水保湿滋润紧致",
+                "shop_price": "88.00",
+                "sold_number": 149,
+                "comment_number": "0",
+                "is_sale": "0",
+                "country_img": "",
+                "market_price": "110.00",
+                "discount_rate": "8.0"
+            }
+        ]
+    },
+    "timestamp": 1482396664
+}

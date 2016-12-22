@@ -1,0 +1,21 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "list": [
+            {
+                "goods_id": "56032",
+                "goods_thumb": "http://s06.lmbang.com/M00/D8/5F/ecloD1eZvm-AOORxAABAAnnLi5Y120.jpg!c300x300x100.jpg",
+                "goods_name": "【香港直邮】日本资生堂安耐晒ANESSA防晒霜 金瓶2016新版 60ml",
+                "shop_price": "179.00",
+                "sold_number": 135,
+                "comment_number": "0",
+                "is_sale": 1,
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "230.00",
+                "discount_rate": "7.8"
+            }
+        ]
+    },
+    "timestamp": 1482395887
+}

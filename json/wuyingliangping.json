@@ -1,0 +1,45 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "list": [
+            {
+                "goods_id": "54377",
+                "goods_thumb": "http://s04.lmbang.com/M00/E9/14/DpgiA1dsqGSAYWvxAABAAvuXVi8927.png!c300x300x100.png",
+                "goods_name": "【保税直发】日本MUJI/无印良品 敏感肌用化妆水清爽型 200ml",
+                "shop_price": "87.00",
+                "sold_number": 217,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "134.00",
+                "discount_rate": "6.5"
+            },
+            {
+                "goods_id": "54376",
+                "goods_thumb": "http://s06.lmbang.com/M00/CF/D0/ecloA1dsp2uANk_jAABAAm3V-Ww828.png!c300x300x100.png",
+                "goods_name": "【保税直发】日本MUJI/无印良品 敏感肌用化妆水滋润型 200ml",
+                "shop_price": "126.00",
+                "sold_number": 140,
+                "comment_number": "1",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "129.00",
+                "discount_rate": "9.7"
+            },
+            {
+                "goods_id": "54286",
+                "goods_thumb": "http://s01.lmbang.com/M00/E8/C9/DpgiA1droXyAWhe-AABAAryIDto417.png!c300x300x100.png",
+                "goods_name": "【保税直发】日本MUJI/无印良品 敏感肌用乳液滋润型 200ml",
+                "shop_price": "75.00",
+                "sold_number": 206,
+                "comment_number": "0",
+                "is_sale": "1",
+                "country_img": "http://s05.lmbang.com/M00/54/73/DhFprFQSbTaAGvu4AAAISAvDUEQ793.png",
+                "market_price": "121.00",
+                "discount_rate": "6.2"
+            }
+        ]
+    },
+    "timestamp": 1482395753
+}
