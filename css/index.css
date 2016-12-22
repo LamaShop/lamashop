@@ -1,0 +1,29 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+#wrap{
+	width:100%;
+	height:100%;
+}
+#main{
+	width:100%;
+	height:92%;
+}
+#tab{
+	width:100%;
+	height:8%;
+	background:yellowgreen;
+	position: fixed;
+	z-index: 10;
+}
+#tab li{
+	width:25%;
+	height:100%;
+	float:left;
+	text-align: center;
+}
+#tab li a{
+	display: inline-block;
+	font-size:0.7rem;
+}
