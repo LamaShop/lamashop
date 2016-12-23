@@ -1,5 +1,5 @@
 
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule']);
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule']);
 
 myApp.config(function($stateProvider,$urlRouterProvider){
 
@@ -12,6 +12,36 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		controller:'homeCtrl',
 		css:"components/home/home.css"
 	})
+		.state("home.baoshui",{
+			url:"baoshui",
+			templateUrl:"components/home/baoshui/baoshui.html",
+			controller:'baoshuiCtrl',
+			css:"components/home/baoshui/baoshui.css"
+		})
+		.state("home.hufu",{
+			url:"hufu",
+			templateUrl:"components/home/hufu/hufu.html",
+			controller:'hufuCtrl',
+			css:"components/home/hufu/hufu.css"
+		})
+		.state("home.japan",{
+			url:"japan",
+			templateUrl:"components/home/japan/japan.html",
+			controller:'japanCtrl',
+			css:"components/home/japan/japan.css"
+		})
+		.state("home.nai",{
+			url:"nai",
+			templateUrl:"components/home/nai/nai.html",
+			controller:'naiCtrl',
+			css:"components/home/nai/nai.css"
+		})
+		.state("home.yimajing",{
+			url:"yimajing",
+			templateUrl:"components/home/yimajing/yimajing.html",
+			controller:'yimajingCtrl',
+			css:"components/home/yimajing/yimajing.css"
+		})
 	.state("market",{
 		url:"market",
 		templateUrl:"components/market/market.html",

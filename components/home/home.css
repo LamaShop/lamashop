@@ -1,3 +1,242 @@
 #top{
+    width:100%;
+    height:2.5rem;
+    /*background:red;*/
+    position: relative;
+}
+#top p{
+    width:4rem;
+    height:1rem;
+    background:url("../../img/mall_icons.png")no-repeat 5px 1px;
+    background-size: 120px 295px;
+    position: absolute;
+    top:0.7rem;
+    left:7rem;
+}
+#top span{
+    display: inline-block;
+    width:1.1rem;
+    height:1.1rem;
+    position: absolute;
+    top:0.7rem;
+    right:1rem;
+    background:white;
+    background: url("../../img/mall_icons.png")0 -140px;
+    background-size: 120px 295px;
+}
+.swiper-slide{
+    width:100%;
+    height:9rem;
+}
+.swiper-slide img{
+    width:100%;
+    height:100%;
+}
+.jump{
+    width:100%;
+    height:3rem;
+    margin:0.5rem 0;
+}
+.jump li{
+    width:20%;
+    height:3rem;
+    float:left;
+    font-size:0.7rem;
+}
+.jump li img{
+    width:1.8rem;
+    height:1.8rem;
+    margin-left:1rem;
+}
+.jump li a{
+    display: inline-block;
+    width:4rem;
+    height:1.5em;
+    text-align:center;
+    color:#735660;
+}
+.scroll{
+    width:100%;
+    height:2.3rem;
+    background:yellow;
+    border-top:1px solid #e3e3e3;
+    border-bottom:1px solid #e3e3e3;
+    position: relative;
+}
+.scroll span{
+    display: inline-block;
+    width:3rem;
+    height:1rem;
+    background:url(../../img/mall_icons.png)no-repeat 0 -20px;
+    background-size:120px 295px;
+    position: absolute;
+    top:0.8rem;
+    left:1rem;
+}
+.scroll .scrollList{
+    width:13rem;
+    height:2.3rem;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.scroll　.scrollList li{
+    width:12rem;
+    height:1.3rem;
+    background:red;
+    margin:0.5rem 0 0 0.5rem;
+}
+.show{
+    width:100%;
+    height:5rem;
+    background:#e3e3e3;
+}
+.show .one{
+    width:49.5%;
+    height:4rem;
+    margin-top:0.5rem;
+    margin-right:0.5%;
+}
+.show .two{
+    width:49.5%;
+    height:4rem;
+    margin-top:0.5rem;
+    margin-left:0.5%;
+}
+.show>div{
+    float:left;
+}
+.show>div img{
+    width:100%;
+    height:100%;
+}
+.middle{
+    width:100%;
+    height:9rem;
+    background:greenyellow;
+    padding:0.5rem;
+    box-sizing: border-box;
+    margin-bottom:0.5rem;
+}
+.showImg{
+    width:100%;
+    height:30rem;
+    overflow: hidden;
+}
+.showImg>div{
+    width:100%;
+    height:7rem;
+    margin-bottom:0.5rem;
+}
+.showImg>div img{
+    width:100%;
+    height:100%;
+}
+.word{
+    width:100%;
+    height:3rem;
+    position: relative;
+}
+.word>ul>li{
+    width:33%;
+    height:3rem;
+    float:left;
+}
+.word>ul>li a{
+    display: inline-block;
+    width:3rem;
+    height:1rem;
+    font-size:0.7rem;
+    margin:1rem;
+}
+.word .slider{
+    width:3rem;
+    height:3px;
+    background:pink;
+    position: absolute;
+    top:2.8rem;
+    left:1rem;
+}
+.show_word{
+    width:100%;
+}
+.show_word>ul li{
+    width:100%;
+    height:11rem;
+    /*margin-bottom:0.5rem;*/
+    border-bottom:0.5rem solid #EEEEEE;
+    position: relative;
+}
+.show_word>ul li div{
+    width:100%;
+    height:8.5rem;
+}
+.show_word>ul li div img{
+    width:100%;
+    height:100%;
+}
+.show_word>ul li p{
+    position: absolute;
+    bottom:1rem;
+    left:1rem;
+    font-size:0.7rem;
+    color:black;
+}
+.show_word>ul li span:nth-of-type(1){
+    position: absolute;
+    bottom:1rem;
+    right:3rem;
+    width:4rem;
+    height:1rem;
+    font-size:0.6rem;
+    color:#999;
+}
+.show_word>ul li span:nth-of-type(1) i{
     color:red;
+}
+.show_word>ul li span:nth-of-type(2){
+    position: absolute;
+    bottom:1rem;
+    right:1rem;
+    font-size:0.6rem;
+    color:#999;
+}
+.show_word>ul li span:nth-of-type(3){
+    display: inline-block;
+    width:4rem;
+    height:1.2rem;
+    background:#fc6496;
+    position: absolute;
+    bottom:3rem;
+    left:0;
+    color:white;
+    font-size:0.5rem;
+    text-indent: 1rem;
+    border-radius: 0.6rem 0;
+}
+.show_word>ul li span:nth-of-type(3) b{
+    font-size:0.7rem;
+}
+.word_space{
+    width:100%;
+    height:3rem;
+    position: relative;
+}
+.word_space>p{
+    width:5rem;
+    height:0.9rem;
+    font-size:0.5rem;
+    text-align: center;
+    line-height:1rem;
+    position: absolute;
+    top:1rem;
+    left:6rem;
+    background: url("../../img/mall_icons.png")no-repeat 0 -201px;
+    background-size:120px 295px;
+}
+
+.space{
+    width:100%;
+    height:5rem;
+
 }
