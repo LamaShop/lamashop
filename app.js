@@ -1,5 +1,8 @@
 
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule']);
+
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule']);
+
+
 
 myApp.config(function($stateProvider,$urlRouterProvider){
 
@@ -150,5 +153,10 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		controller:'mineCtrl',
 		css:"components/mine/mine.css"
 	})
-	
+		.state("mine.order",{
+			url:"/order",
+			templateUrl:"components/mine/order/order.html",
+			controller:'orderCtrl',
+			css:"components/mine/order/order.css"
+		})
 })
