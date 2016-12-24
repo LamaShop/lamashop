@@ -1,0 +1,19 @@
+<div class="content">
+    <div class="nav">
+        Ivory/爱得利
+        <span ui-sref="market"></span>
+    </div>
+    <ul>
+        <li ng-repeat="obj in arr">
+            <img ng-src="{{obj.goods_thumb}}" alt="">
+            <div class="goods-info">
+                <h5>{{obj.goods_name}}</h5>
+                <p>
+                    <span>¥{{obj.shop_price}}</span>
+                    <span class="market_price">¥{{obj.market_price}}</span>
+                    <span>{{obj.discount_rate}}折</span>
+                </p>
+            </div>
+        </li>
+    </ul>
+</div>
