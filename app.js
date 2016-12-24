@@ -1,6 +1,6 @@
 
 
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule']);
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','collectModule','addressModule','couponModule']);
 
 
 
@@ -158,5 +158,23 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			templateUrl:"components/mine/order/order.html",
 			controller:'orderCtrl',
 			css:"components/mine/order/order.css"
+		})
+		.state('mine.collect',{
+			url:'/collect',
+			templateUrl:"components/mine/collect/collect.html",
+			controller:'collectCtrl',
+			css:"components/mine/collect/collect.css"
+		})
+		.state('mine.address',{
+			url:'/address',
+			templateUrl:'components/mine/address/address.html',
+			controller:'addressCtrl',
+			css:'components/mine/address/address.css'
+		})
+		.state('mine.coupon',{
+			url:'/coupon',
+			templateUrl:'components/mine/coupon/coupon.html',
+			controller:'couponCtrl',
+			css:'components/mine/coupon/coupon.css'
 		})
 })
