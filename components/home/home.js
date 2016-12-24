@@ -1,13 +1,6 @@
 angular.module('HomeModule',[])
-// .config(['$routeProvider',function($routeProvider){
-// 	$routeProvider
-// 	.when('/home',{
-// 		templateUrl:'components/home/home.html',
-// 		controller:'homeCtrl',
-// 		css:'components/home/home.css',
-// 	})
-// }])
-	.service('dataService1',['$http',function($http){
+
+	.service('dataService10',['$http',function($http){
 		return $http.get('json/mySwp.json');
 	}])
 	.service('dataService11',['$http',function($http){
@@ -19,11 +12,11 @@ angular.module('HomeModule',[])
     .service('dataService13',['$http',function($http){
         return $http.get('json/home2.json');
     }])
-	.controller('homeCtrl',['$scope','dataService1','dataService11','dataService12','dataService13',function($scope,dataService1,dataService11,dataService12,dataService13){
-		dataService1.success(function(res){
+	.controller('homeCtrl',['$scope','dataService10','dataService11','dataService12','dataService13',function($scope,dataService10,dataService11,dataService12,dataService13){
+		dataService10.success(function(res){
 			//轮播图数据
 			$scope.arr = res.list;
-
+				console.log(res);
 			//轮播图
 			mySwiper = new Swiper ('.swiper-container', {
 			    direction: 'horizontal',
@@ -40,6 +33,8 @@ angular.module('HomeModule',[])
 			    nextButton: '.swiper-button-next',
 			    prevButton: '.swiper-button-prev',
 			  })
+		})
+
 			//四张展示图
 			dataService11.success(function(res){
 				$scope.arr1 = res.data.list;
@@ -60,7 +55,7 @@ angular.module('HomeModule',[])
 			}
       $scope.arr2 = ["今日上新","还有机会","即将开售"]
 
-		})
+
 
 
 	}])

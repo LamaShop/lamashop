@@ -84,5 +84,7 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		controller:'mineCtrl',
 		css:"components/mine/mine.css"
 	})
+
+
 	
 })
