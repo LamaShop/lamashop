@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div class="top">
+    <img src="img/15.png" alt="">
+    <h3>奶瓶专区</h3>
+</div>
 
-</body>
-</html>
+<div class="banner">
+    <div class="big">
+        <img src="{{arr.banner}}" alt="">
+    </div>
+    <div class="line">
+        <a href=""><span></span>  有货</a>
+        <a href="">人气</a>
+        <a href=""><span></span>价格</a>
+        <a href=""><span></span>筛选</a>
+        <a href=""><span></span></a>
+    </div>
+</div>
+
+<div class="main_word">
+    <ul class="main_word_list">
+        <li ng-repeat="obj1 in arr1">
+            <div><img src="{{obj1.goods_thumb}}" alt=""></div>
+            <p>{{obj1.goods_name}}</p>
+            <span>已售 <i>{{obj1.sold_number}}</i> 件</span>
+            <span class="s1">¥{{obj1.shop_price}}</span><span class="s2">¥{{obj1.market_price}}</span>
+            <h5>{{obj1.discount}}折</h5>
+        </li>
+    </ul>
+</div>

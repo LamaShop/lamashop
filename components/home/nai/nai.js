@@ -8,7 +8,11 @@ angular.module('NaiModule',[])
     }])
     .controller('naiCtrl',['$scope','dataService5',function($scope,dataService5){
         dataService5.success(function(res){
-            //$scope.arr = res.data;
-            console.log(res);
+            //第一张大图
+        $scope.arr = res.data.special;
+           // 下面的小图
+            $scope.arr1 = res.data.goods;
+            console.log($scope.arr1);
         })
+
     }])
