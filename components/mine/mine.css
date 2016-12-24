@@ -1,4 +1,4 @@
-#mine{width:100%;height: 100%;background: ghostwhite;overflow: auto;}
+#mine{width:100%;height: 100%;background: #f6f4f2;overflow: auto;}
 #mineHeader{width:100%;height: 10.8rem;background: url("../../img/my_bg.jpg") no-repeat;}
 #mineHeader span:first-of-type{padding: 0.5rem 0 0 0.5rem;display: block;width: 0.8rem;height:0.87rem;background: url("../../img/mall_icons.png")no-repeat -22px -266px;background-size:120px 295px ;}
 #mineHeader a{color: #fff;margin-left: 0.5rem}
