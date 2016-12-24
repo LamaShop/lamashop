@@ -153,16 +153,14 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		controller:'mineCtrl',
 		css:"components/mine/mine.css"
 	})
-<<<<<<< HEAD
 
 
-	
-=======
+
 		.state("mine.order",{
 			url:"/order",
 			templateUrl:"components/mine/order/order.html",
 			controller:'orderCtrl',
 			css:"components/mine/order/order.css"
 		})
->>>>>>> 54e13af50ce02442f9106449b87523b8a385b89b
+
 })
