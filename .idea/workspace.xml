@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/car/car.css" afterPath="$PROJECT_DIR$/components/car/car.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/car/car.html" afterPath="$PROJECT_DIR$/components/car/car.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/car/car.js" afterPath="$PROJECT_DIR$/components/car/car.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/mine/mine.css" afterPath="$PROJECT_DIR$/components/mine/mine.css" />
     </list>
     <ignored path="lamashop.iws" />
@@ -32,37 +33,17 @@
         <entry file="file://$PROJECT_DIR$/components/car/car.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="184" selection-start-line="8" selection-start-column="184" selection-end-line="8" selection-end-column="184" />
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mine.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/mine/mine.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="184" selection-start-line="2" selection-start-column="184" selection-end-line="2" selection-end-column="196" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="car.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="car.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/car/car.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="200">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -71,8 +52,8 @@
       <file leaf-file-name="car.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/car/car.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="60">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,8 +71,9 @@
         <option value="$PROJECT_DIR$/components/mine/mine.js" />
         <option value="$PROJECT_DIR$/components/mine/mine.html" />
         <option value="$PROJECT_DIR$/components/mine/mine.css" />
-        <option value="$PROJECT_DIR$/components/car/car.html" />
+        <option value="$PROJECT_DIR$/components/car/car.js" />
         <option value="$PROJECT_DIR$/components/car/car.css" />
+        <option value="$PROJECT_DIR$/components/car/car.html" />
       </list>
     </option>
   </component>
@@ -307,15 +289,15 @@
       <workItem from="1482413873704" duration="875000" />
       <workItem from="1482452976857" duration="19000" />
       <workItem from="1482456890489" duration="25346000" />
-      <workItem from="1482542919244" duration="283000" />
+      <workItem from="1482542919244" duration="3185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26523000" />
+    <option name="totallyTimeSpent" value="29425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16071428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -425,13 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/mine/mine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -440,26 +415,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/car/car.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/car/car.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/mine/mine.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="184" selection-start-line="2" selection-start-column="184" selection-end-line="2" selection-end-column="196" />
+        <state relative-caret-position="380">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/mine/mine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/car/car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -467,15 +450,15 @@
     <entry file="file://$PROJECT_DIR$/components/car/car.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="184" selection-start-line="8" selection-start-column="184" selection-end-line="8" selection-end-column="184" />
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/components/car/car.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="200">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
