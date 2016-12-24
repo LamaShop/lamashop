@@ -1,3 +1,7 @@
+html,body{
+    width:17.5rem;
+
+}
 #top{
     width:100%;
     height:2.5rem;
@@ -234,9 +238,53 @@
     background: url("../../img/mall_icons.png")no-repeat 0 -201px;
     background-size:120px 295px;
 }
+.main_word{
+    width:100%;
+
+}
+.main_word .main_word_list li{
+    width:100%;
+    height:6.2rem;
+    border-bottom:1px solid #e3e3e3;
+    box-sizing: border-box;
+    padding: 0.4rem;
+    position: relative;
+}
+.main_word .main_word_list li>div{
+    width:5rem;
+    height:5rem;
+    background:red;
+}
+.main_word .main_word_list li>div img{
+    width:100%;
+    height:100%;
+}
+.main_word .main_word_list li p:nth-of-type(1){
+    position: absolute;
+    left:6rem;
+    top:0.4rem;
+    font-size:0.6rem;
+}
+.main_word .main_word_list li span:nth-of-type(1){
+    position: absolute;
+    left:6rem;
+    top:3rem;
+    font-size:0.5rem;
+}
+.main_word .main_word_list li .s1{
+    position: absolute;
+    top:5rem;
+    left:6rem;
+}
+.main_word .main_word_list li .s2{
+    position: absolute;
+    top:5rem;
+    left:7.5rem;
+}
+
 
 .space{
     width:100%;
-    height:5rem;
+    height:2.6rem;
 
 }

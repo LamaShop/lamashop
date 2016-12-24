@@ -14,9 +14,12 @@ angular.module('HomeModule',[])
 		return $http.get('json/home.json');
 	}])
 	.service('dataService12',['$http',function($http){
-		return $http.get('json/home.json');
+		return $http.get('json/home1.json');
 	}])
-	.controller('homeCtrl',['$scope','dataService1','dataService11','dataService12',function($scope,dataService1,dataService11,dataService12){
+    .service('dataService13',['$http',function($http){
+        return $http.get('json/home2.json');
+    }])
+	.controller('homeCtrl',['$scope','dataService1','dataService11','dataService12','dataService13',function($scope,dataService1,dataService11,dataService12,dataService13){
 		dataService1.success(function(res){
 			//轮播图数据
 			$scope.arr = res.list;
@@ -47,6 +50,11 @@ angular.module('HomeModule',[])
 				$scope.arr3 = res.data.list;
 
 			})
+            //今日爆款
+            dataService13.success(function(res){
+                $scope.arr4 = res.data;
+
+            })
 			$scope.press = function(index){
 
 			}

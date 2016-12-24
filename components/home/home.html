@@ -22,7 +22,7 @@
             <li ui-sref=".hufu"><img src="img/5.png" alt=""><a href="">护肤美妆</a></li>
         </ul>
     </div>
-</div>
+
 <div class="clearfix"></div>
 <div class="scroll">
     <span></span>
@@ -72,12 +72,20 @@
 </div>
 
 <div class="main_word">
-
+    <ul class="main_word_list">
+        <li ng-repeat="obj4 in arr4">
+            <div><img src="{{obj4.goods_thumb}}" alt=""></div>
+            <p>{{obj4.goods_name}}</p>
+            <span>已售 <i>{{obj4.sold_number}}</i> 件</span>
+            <span class="s1">¥{{obj4.shop_price}}</span><span class="s2">¥{{obj4.market_price}}</span>
+        </li>
+    </ul>
 </div>
 
 
 
 
 <div class="space">
-    123
+
+</div>
 </div>
