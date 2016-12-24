@@ -1,5 +1,5 @@
 
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule']);
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','wylpModule','anessaModule','kingwifeModule']);
 
 myApp.config(function($stateProvider,$urlRouterProvider){
 
@@ -17,6 +17,30 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		templateUrl:"components/market/market.html",
 		controller:'marketCtrl',
 		css:"components/market/market.css"
+	})
+	.state("market.wylp", {
+		url:"/wylp",
+		templateUrl: "components/market/wylp/wylp.html",
+		controller:'wylpCtrl',
+		css:'components/market/wylp/wylp.css'
+	})
+	.state("market.anessa", {
+		url:"/anessa",
+		templateUrl: "components/market/anessa/anessa.html",
+		controller:'anessaCtrl',
+		css:'components/market/anessa/anessa.css'
+	})
+	.state("market.kzl", {
+		url:"/kzl",
+		templateUrl: "components/market/kzl/kzl.html",
+		// controller:'anessaCtrl',
+		css:'components/market/kzl/kzl.css'
+	})
+	.state("market.kingwife", {
+		url:"/kingwife",
+		templateUrl: "components/market/kingwife/kingwife.html",
+		controller:'kingwifeCtrl',
+		css:'components/market/kingwife/kingwife.css'
 	})
 	.state("car",{
 		url:"car",
