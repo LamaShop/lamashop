@@ -1,10 +1,6 @@
 
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','TodayModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule']);
 
-<<<<<<< HEAD
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','TodayModule','ChanceModule','SoldModule']);
-=======
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','collectModule','addressModule','couponModule']);
->>>>>>> 4c83b1921a30e79b911f57a3e62ce02a7af0be34
 
 
 
@@ -176,17 +172,14 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		css:"components/mine/mine.css"
 	})
 
-
-
 		.state("mine.order",{
 			url:"/order",
 			templateUrl:"components/mine/order/order.html",
 			controller:'orderCtrl',
 			css:"components/mine/order/order.css"
 		})
-<<<<<<< HEAD
 
-=======
+
 		.state('mine.collect',{
 			url:'/collect',
 			templateUrl:"components/mine/collect/collect.html",
@@ -205,5 +198,5 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			controller:'couponCtrl',
 			css:'components/mine/coupon/coupon.css'
 		})
->>>>>>> 4c83b1921a30e79b911f57a3e62ce02a7af0be34
+
 })
