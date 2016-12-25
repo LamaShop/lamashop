@@ -53,7 +53,7 @@ angular.module('HomeModule',[])
 			$scope.press = function(index){
 
 			}
-      $scope.arr2 = ["今日上新","还有机会","即将开售"]
+
 
 
 

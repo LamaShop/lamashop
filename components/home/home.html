@@ -27,7 +27,7 @@
 <div class="scroll">
     <span></span>
     <ul class="scrollList">
-        <li> 12321<a href=""></a></li>
+        <li><a href="">暂无数据</a></li>
     </ul>
 </div>
 <div class="clearfix"></div>
@@ -48,9 +48,9 @@
 
 <div class="word">
     <ul >
-        <li ng-repeat="obj3 in arr2" ng-click="press($index)"><a href="">{{obj3}}</a></li>
-        <!--<li><a href="">还有机会</a></li>-->
-        <!--<li><a href="">即将开售</a></li>-->
+        <li ui-sref=".today"><a href="">今日特卖</a></li>
+        <li ui-sref=".chance"><a href="">还有机会</a></li>
+        <li ui-sref=".sold"><a href="">即将开售</a></li>
     </ul>
     <div class="slider"></div>
 </div>

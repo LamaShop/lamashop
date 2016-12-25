@@ -1,12 +1,12 @@
 /**
- * Created by YZTC on 2016/12/23.
+ * Created by YZTC on 2016/12/24.
  */
-angular.module('YimajingModule',[])
+angular.module('SoldModule',[])
 
-    .service('dataServiceB',['$http',function($http){
+    .service('dataServiceF',['$http',function($http){
         return $http.get('json/red.json');
     }])
-    .controller('yimajingCtrl',['$scope','dataServiceB',function($scope,dataServiceB){
+    .controller('soldCtrl',['$scope','dataServiceF',function($scope,dataServiceF){
         dataServiceB.success(function(res){
             $scope.arr = res.data.special;
             $scope.arr1 = res.data.goods;

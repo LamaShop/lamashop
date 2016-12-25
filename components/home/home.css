@@ -1,7 +1,8 @@
 html,body{
     width:17.5rem;
-
+    box-sizing: border-box;
 }
+
 #top{
     width:100%;
     height:2.5rem;
@@ -28,8 +29,12 @@ html,body{
     background: url("../../img/mall_icons.png")0 -140px;
     background-size: 120px 295px;
 }
-.swiper-slide{
-    width:100%;
+.swiper{
+    width:17rem;
+    height:9rem;
+}
+.swiper-wrapper{
+    width:17rem;
     height:9rem;
 }
 .swiper-slide img{
@@ -88,8 +93,11 @@ html,body{
     width:12rem;
     height:1.3rem;
     background:red;
-    margin:0.5rem 0 0 0.5rem;
+    margin:1rem 0 0 0.5rem;
+    text-align: center;
+    font-size:0.7rem;
 }
+
 .show{
     width:100%;
     height:5rem;
