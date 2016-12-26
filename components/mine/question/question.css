@@ -1,0 +1,7 @@
+#question{width:100%;height: 100%;overflow: auto;background: #f6f4f2;position: absolute;left: 0;top: 0;z-index: 12;}
+#questionHeader>img{padding: 0.84rem 4.5rem;width: 50%;height: 50%;}
+#questionMain{padding: 0.84rem;}
+#questionMain>li>h1{height: 2rem;font-size: 0.78rem;color: #ff6990;padding: 0 0.56rem;background: #fff;font-weight: normal;line-height: 2rem;margin-bottom: 0.17rem;border-radius: 0.17rem;}
+#questionMain>li>h1>span{float: right;margin-right: 0.3rem;color: #ddd;}
+#questionMain>li .text{background: #fff;margin-bottom:0.17rem;}
+#questionMain>li .text>p{text-indent: 2rem;color: #666;font-size: 0.67rem;line-height: 1.12rem;}
