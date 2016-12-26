@@ -1,0 +1,9 @@
+#address{width:100%;height:100%;position: fixed;z-index: 11;background: #f6f6f6;}
+#addressMain{width:100%;height: 65%;background: #fff;}
+#addressMain>div:first-of-type{width:100%;height: 2.5rem;border-bottom: 1px solid #e3e3e3;font-size: 1rem;text-align: center;line-height: 2.5rem;}
+#addressMain>div:first-of-type a{float: left;margin-left: 0.5rem;color: #322228;}
+#addressMain>p{position: relative;padding: 0.62rem 0.84rem 0.62rem 0;border-bottom: 1px solid #e3e3e3;margin-left: 1rem;font-size: 0.78rem;color: #735660;}
+#addressMain>p input{position: absolute;left: 4rem;top:0.65rem;border: none;}
+#addressMain>p:last-of-type span{display: inline-block;width:2.84rem;height: 1.73rem;border: 2px solid #e5e5e5;border-radius: 1.73rem;position: absolute;left: 13rem;top: 0.3rem; }
+#addressMain>p:last-of-type i{display: inline-block;width: 1.56rem;height: 1.56rem;border: 1px solid #cacaca;border-radius: 50%;position: absolute;left:13rem;top:0.45rem;}
+#addressMain>div:last-of-type{width: 100%;height: 2.67rem;background: #fff;font-size: 0.84rem;color: #fc6496;text-align: center;line-height: 2.67rem;position: absolute;left: 0;bottom: 0;border-top:1px solid #e3e3e3; }

@@ -3,11 +3,11 @@
  */
 angular.module('JapanModule',[])
 
-    .service('dataService4',['$http',function($http){
+    .service('dataServiceC',['$http',function($http){
         return $http.get('json/Japan.json');
     }])
-    .controller('japanCtrl',['$scope','dataService4',function($scope,dataService4){
-        dataService4.success(function(res){
+    .controller('japanCtrl',['$scope','dataServiceC',function($scope,dataServiceC){
+        dataServiceC.success(function(res){
             $scope.arr = res.data.special;
             $scope.arr1 = res.data.goods;
         })

@@ -3,11 +3,11 @@
  */
 angular.module('NaiModule',[])
 
-    .service('dataService5',['$http',function($http){
+    .service('dataServiceA',['$http',function($http){
         return $http.get('json/milk.json');
     }])
-    .controller('naiCtrl',['$scope','dataService5',function($scope,dataService5){
-        dataService5.success(function(res){
+    .controller('naiCtrl',['$scope','dataServiceA',function($scope,dataServiceA){
+        dataServiceA.success(function(res){
             //第一张大图
         $scope.arr = res.data.special;
            // 下面的小图

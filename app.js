@@ -1,9 +1,16 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule']);
 =======
 var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','orderModule']);
 >>>>>>> 765af160f8967f5c4ce000e680e321dd2b8a1489
+=======
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','TodayModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule']);
+
+
+
+>>>>>>> master
 
 myApp.config(function($stateProvider,$urlRouterProvider){
 
@@ -45,6 +52,24 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			templateUrl:"components/home/yimajing/yimajing.html",
 			controller:'yimajingCtrl',
 			css:"components/home/yimajing/yimajing.css"
+		})
+		.state("home.today",{
+			url:"today",
+			templateUrl:"components/home/today/today.html",
+			controller:'todayCtrl',
+			css:"components/home/today/today.css"
+		})
+		.state("home.chance",{
+			url:"chance",
+			templateUrl:"components/home/chance/chance.html",
+			controller:'chanceCtrl',
+			css:"components/home/chance/chance.css"
+		})
+		.state("home.sold",{
+			url:"sold",
+			templateUrl:"components/home/sold/sold.html",
+			controller:'soldCtrl',
+			css:"components/home/sold/sold.css"
 		})
 	.state("market",{
 		url:"market",
@@ -154,10 +179,38 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		controller:'mineCtrl',
 		css:"components/mine/mine.css"
 	})
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 		.state("mine.order",{
 			url:"/order",
 			templateUrl:"components/mine/order/order.html",
 			controller:'orderCtrl',
 			css:"components/mine/order/order.css"
 		})
+<<<<<<< HEAD
+=======
+
+
+		.state('mine.collect',{
+			url:'/collect',
+			templateUrl:"components/mine/collect/collect.html",
+			controller:'collectCtrl',
+			css:"components/mine/collect/collect.css"
+		})
+		.state('mine.address',{
+			url:'/address',
+			templateUrl:'components/mine/address/address.html',
+			controller:'addressCtrl',
+			css:'components/mine/address/address.css'
+		})
+		.state('mine.coupon',{
+			url:'/coupon',
+			templateUrl:'components/mine/coupon/coupon.html',
+			controller:'couponCtrl',
+			css:'components/mine/coupon/coupon.css'
+		})
+
+>>>>>>> master
 })
