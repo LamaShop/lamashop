@@ -1,16 +1,7 @@
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule']);
-=======
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','orderModule']);
->>>>>>> 765af160f8967f5c4ce000e680e321dd2b8a1489
-=======
 var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','TodayModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule']);
 
 
-
->>>>>>> master
 
 myApp.config(function($stateProvider,$urlRouterProvider){
 
@@ -179,18 +170,16 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		controller:'mineCtrl',
 		css:"components/mine/mine.css"
 	})
-<<<<<<< HEAD
-=======
 
->>>>>>> master
+
+
 		.state("mine.order",{
 			url:"/order",
 			templateUrl:"components/mine/order/order.html",
 			controller:'orderCtrl',
 			css:"components/mine/order/order.css"
 		})
-<<<<<<< HEAD
-=======
+
 
 
 		.state('mine.collect',{
@@ -212,5 +201,4 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			css:'components/mine/coupon/coupon.css'
 		})
 
->>>>>>> master
 })
