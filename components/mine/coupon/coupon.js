@@ -9,9 +9,9 @@ angular.module('couponModule',[])
         $scope.isHide=false;
     }
     $scope.backChange1=function () {
-        $scope.back=true;
+        $scope.back=false;
     }
     $scope.backChange2=function () {
-        $scope.back=false;
+        $scope.back=true;
     }
 }])
