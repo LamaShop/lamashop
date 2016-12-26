@@ -1,5 +1,5 @@
 
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','TodayModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule']);
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','TodayModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','laDouModule','questionModule','aboutModule']);
 
 
 
@@ -198,5 +198,21 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			controller:'couponCtrl',
 			css:'components/mine/coupon/coupon.css'
 		})
-
+		.state('mine.laDou',{
+			url:'/ladou',
+			templateUrl:'components/mine/ladou/laDou.html',
+			controller:'laDouCtrl',
+			css:'components/mine/ladou/ladou.css'
+		})
+		.state('mine.question',{
+			url:'/question',
+			templateUrl:'components/mine/question/question.html',
+			controller:'questionCtrl',
+			css:'components/mine/question/question.css'
+		})
+		.state('mine.about',{
+			url:'/about',
+			templateUrl:'components/mine/about/about.html',
+			css:'components/mine/about/about.css'
+		})
 })

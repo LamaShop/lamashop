@@ -1,5 +1,17 @@
 <div id="coupon">
     <div id="couponHeader">
-        <p><a><</a>优惠券<span>兑换码</span></p>
+        <p><a ui-sref="mine"><</a>优惠券<span ng-click="show()">兑换码</span></p>
     </div>
+    <div id="couponMain">
+        <p><span ng-click="backChange1()" ng-class="{true:'back2',false:'back1'}[back]">可使用(0)</span><span ng-click="backChange2()" ng-class="{true:'back1',false:'back2'}[back]">已失效(0)</span></p>
+        <span></span>
+        <p>空空的</p>
+    </div>
+    <div id="redeemCode" ng-class="{true:'show',false:'hide'}[isHide]">
+        <div id="redeemCodeNum">
+            <p>绑定优惠票<span ng-click="hide()">X</span></p>
+            <input placeholder="请输入优惠券号"/><a>确定</a>
+        </div>
+    </div>
+
 </div>
