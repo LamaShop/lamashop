@@ -3,7 +3,6 @@ var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','Marke
 
 
 
-
 myApp.config(function($stateProvider,$urlRouterProvider){
 
 	$urlRouterProvider.when("","/home");
@@ -172,12 +171,15 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		css:"components/mine/mine.css"
 	})
 
+
+
 		.state("mine.order",{
 			url:"/order",
 			templateUrl:"components/mine/order/order.html",
 			controller:'orderCtrl',
 			css:"components/mine/order/order.css"
 		})
+
 
 
 		.state('mine.collect',{
