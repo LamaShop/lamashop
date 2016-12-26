@@ -11,4 +11,8 @@ angular.module('JapanModule',[])
             $scope.arr = res.data.special;
             $scope.arr1 = res.data.goods;
         })
+        $scope.orderType = '';
+        $scope.changeOrderType = function(type){
+            $scope.orderType = type;
+        }
     }])

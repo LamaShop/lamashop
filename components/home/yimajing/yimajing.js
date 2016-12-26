@@ -12,5 +12,8 @@ angular.module('YimajingModule',[])
             $scope.arr1 = res.data.goods;
             console.log($scope.arr1);
         })
-
+        $scope.orderType = '';
+        $scope.changeOrderType = function(type){
+            $scope.orderType = type;
+        }
     }])

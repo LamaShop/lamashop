@@ -1,5 +1,5 @@
 
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','TodayModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule']);
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule']);
 
 
 
@@ -45,12 +45,6 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			controller:'yimajingCtrl',
 			css:"components/home/yimajing/yimajing.css"
 		})
-		.state("home.today",{
-			url:"today",
-			templateUrl:"components/home/today/today.html",
-			controller:'todayCtrl',
-			css:"components/home/today/today.css"
-		})
 		.state("home.chance",{
 			url:"chance",
 			templateUrl:"components/home/chance/chance.html",
@@ -62,6 +56,12 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			templateUrl:"components/home/sold/sold.html",
 			controller:'soldCtrl',
 			css:"components/home/sold/sold.css"
+		})
+		.state("home.search",{
+			url:"search",
+			templateUrl:"components/home/search/search.html",
+			controller:'searchCtrl',
+			css:"components/home/search/search.css"
 		})
 	.state("market",{
 		url:"market",

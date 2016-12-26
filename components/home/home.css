@@ -26,15 +26,32 @@ html,body{
     top:0.7rem;
     right:1rem;
     background:white;
-    background: url("../../img/mall_icons.png")0 -140px;
-    background-size: 120px 295px;
+    /*background: url("../../img/search.jpg");*/
+    /*background:50%;*/
+}
+#top span img{
+    width:100%;
+    height:100%;
+}
+#top .scrollTop{
+    width:1.5rem;
+    height:1.5rem;
+    background:red;
+    position: fixed;
+    top:25rem;
+    right:1rem;
+    z-index: 11;
 }
 .swiper{
-    width:17rem;
+    width:18rem;
     height:9rem;
 }
 .swiper-wrapper{
-    width:17rem;
+    width:18rem;
+    height:9rem;
+}
+.swiper-slide{
+    width:18rem;
     height:9rem;
 }
 .swiper-slide img{
@@ -125,10 +142,39 @@ html,body{
 .middle{
     width:100%;
     height:9rem;
-    background:greenyellow;
+    background:white;
     padding:0.5rem;
     box-sizing: border-box;
     margin-bottom:0.5rem;
+    overflow: hidden;
+}
+.middle .time{
+    width:100%;
+    height:1rem;
+    margin-bottom:0.5rem;
+}
+.middle>.time>p{
+    text-indent: 1rem;
+}
+.middle ul{
+    width:100%;
+    height:7rem;
+}
+.middle ul li{
+    float:left;
+    width:25%;
+    height:100%;
+}
+.middle ul li div{
+    width:95%;
+    height:5rem;
+}
+.middle ul li P{
+    display: inline-block;
+}
+.middle ul li div img{
+    width:100%;
+    height:100%;
 }
 .showImg{
     width:100%;
@@ -283,11 +329,13 @@ html,body{
     position: absolute;
     top:5rem;
     left:6rem;
+    color:red;
 }
 .main_word .main_word_list li .s2{
     position: absolute;
     top:5rem;
     left:7.5rem;
+    text-decoration: line-through;
 }
 
 

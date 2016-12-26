@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="show_word">
+    <ul>
+        <li ng-repeat="obj in arr">
+            <div><img src="{{obj.banner}}" alt=""></div>
+            <p>{{obj.spec_name}}</p>
+            <span></span>
+            <span>{{obj.notice}}</span>
+            <span><b>{{obj.discount}}</b>折起</span>
+        </li>
+    </ul>
+</div>

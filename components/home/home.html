@@ -1,7 +1,8 @@
 <div data-ui-view="">
     <div id="top">
         <p></p>
-        <span></span>
+        <span ui-sref=".search"><a href=""><img src="img/search.jpg" alt=""></a></span>
+        <div class="scrollTop"  ng-click="press()">123</div>
     </div>
     <div id="swiper">
         <div class="swiper-container">
@@ -39,7 +40,14 @@
 <div class="clearfix"></div>
 
 <div class="middle">
-    12
+    <div class="time"><p>每日一秒 00:00:00</p></div>
+    <ul>
+        <li ng-repeat="obj5 in arr5">
+            <div><img src="{{obj5.banner}}"/></div>
+            <span>¥{{obj5.hits}}</span>
+            <p>{{obj5.discount}}折</p>
+        </li>
+    </ul>
 </div>
 
 <div class="showImg">
@@ -48,7 +56,7 @@
 
 <div class="word">
     <ul >
-        <li ui-sref=".today"><a href="">今日特卖</a></li>
+        <li><a href="jsvascript:void(0)">今日特卖</a></li>
         <li ui-sref=".chance"><a href="">还有机会</a></li>
         <li ui-sref=".sold"><a href="">即将开售</a></li>
     </ul>

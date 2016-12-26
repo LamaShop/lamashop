@@ -4,13 +4,12 @@
 angular.module('SoldModule',[])
 
     .service('dataServiceF',['$http',function($http){
-        return $http.get('json/red.json');
+        return $http.get('json/sold.json');
     }])
     .controller('soldCtrl',['$scope','dataServiceF',function($scope,dataServiceF){
-        dataServiceB.success(function(res){
-            $scope.arr = res.data.special;
-            $scope.arr1 = res.data.goods;
-            console.log($scope.arr1);
+        dataServiceF.success(function(res){
+            $scope.arr = res.data.list;
+            console.log(res);
         })
 
     }])

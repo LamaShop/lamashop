@@ -8,17 +8,19 @@
         <img src="{{arr.banner}}" alt="">
     </div>
     <div class="line">
-        <a href=""><span></span>  有货</a>
-        <a href="">人气</a>
-        <a href=""><span></span>价格</a>
-        <a href=""><span></span>筛选</a>
-        <a href=""><span></span></a>
+        <ul>
+            <li ng-click="changeOrderType('')"><img src="img/t1.jpg" alt=""><a href="">有货</a></li>
+            <li ng-click="changeOrderType('sold_number')"><a href="">人气</a></li>
+            <li ng-click="changeOrderType('shop_price')"><img src="img/t3.jpg" alt=""><a href="">价格</a></li>
+            <li ng-click="changeOrderType('')"><img src="img/t2.jpg" alt=""><a href="">筛选</a></li>
+            <li ng-click="changeOrderType('')"><img src="img/t4.jpg" alt=""><a href=""></a></li>
+        </ul>
     </div>
 </div>
 
 <div class="main_word">
     <ul class="main_word_list">
-        <li ng-repeat="obj1 in arr1">
+        <li ng-repeat="obj1 in arr1 | orderBy:orderType">
             <div><img src="{{obj1.goods_thumb}}" alt=""></div>
             <p>{{obj1.goods_name}}</p>
             <span>已售 <i>{{obj1.sold_number}}</i> 件</span>

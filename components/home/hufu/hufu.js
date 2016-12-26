@@ -12,4 +12,8 @@ angular.module('HufuModule',[])
             console.log(res);
             $scope.arr1 = res.data.goods;
         })
+        $scope.orderType = '';
+        $scope.changeOrderType = function(type){
+            $scope.orderType = type;
+        }
     }])
