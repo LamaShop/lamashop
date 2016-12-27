@@ -19,7 +19,7 @@ angular.module('HomeModule',[])
 		dataService10.success(function(res){
 			//轮播图数据
 			$scope.arr = res.list;
-				console.log(res);
+				//console.log(res);
 			//轮播图
 			mySwiper = new Swiper ('.swiper-container', {
 			    direction: 'horizontal',
@@ -56,14 +56,10 @@ angular.module('HomeModule',[])
 
 		dataService14.success(function(res){
 			$scope.arr5 = res.data.list;
-			console.log($scope.arr5[2].banner)
+			//console.log($scope.arr5[2].banner)
 		})
 
-		$scope.press = function(){
-			$scope.body.css({
-				'scrollTop':0
-			})
-		}
+
 
 
 	}])

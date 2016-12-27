@@ -1,3 +1,4 @@
+
 angular.module('me-lazyload', [])
 .directive('lazySrc', ['$window', '$document', function($window, $document){
     var doc = $document[0],
@@ -98,7 +99,7 @@ angular.module('me-lazyload', [])
             iElement.bind('load', onLoad);
 
             $scope.$watch('lazySrc', function(){
-                var speed = "5s";
+                var speed = "3s";
                 if ($scope.animateSpeed != null) {
                     speed = $scope.animateSpeed;
                 }
