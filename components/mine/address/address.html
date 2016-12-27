@@ -5,11 +5,15 @@
         <p>联系电话<input placeholder="请输入手机号码"/></p>
         <p>
             <span>所在地区</span>
-
+            <a id="city">
+                <select class="prov"></select>
+                <select class="city"></select>
+                <select class="dist"></select>
+            </a>
         </p>
         <p>
             <span>详细地址</span>
-            <input type="textarea" placeholder="请填写详细地址" rows="4" cols="20" />
+            <textarea placeholder="请填写详细地址" rows="3" cols="35"  ></textarea>
         </p>
         <p>是否设置为默认地址<a ng-click="move()"><span ng-class="{true:'span1',false:'span2'}[isTrue1]"></span><i ng-class="{true:'i3',false:'i2'}[isTrue1]"></i></a></p>
         <div>保存</div>

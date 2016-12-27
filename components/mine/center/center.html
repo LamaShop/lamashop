@@ -1,0 +1,95 @@
+<div id="center">
+    <div id="centerHeader">
+        <img src="img/face.png"/>
+        <div>
+            <p><span>辣妈797885</span><img src="img/nameLv01.png"/><span>铁牌会员</span></p>
+        </div>
+        <p><i></i></p>
+        <p>再积累<span>980成长值</span>即可升级到铜牌会员啦！</p>
+    </div>
+    <div id="centerMain">
+        <p>会员专享辣豆换券<span>更多优惠券></span></p>
+    </div>
+    <div id="centerBottom">
+        <h4>规则说明</h4>
+        <p><span ng-click="changeColor1()" ng-class="{true:'centerS1',false:'centerS2'}[color]">会员说明</span><span ng-click="changeColor2()" ng-class="{true:'centerS2',false:'centerS1'}[color]">成长值说明</span></p>
+        <div ng-show="isChange">
+            <p><i></i></p>
+            <ul>
+                <li>
+                    <img src="img/lv01.png"/>
+                    <p>铁牌会员</p>
+                    <span>0</span>
+                </li>
+                <li>
+                    <img src="img/22.png"/>
+                    <p>铜牌会员</p>
+                    <span>1000</span>
+                </li>
+                <li>
+                    <img src="img/33.png"/>
+                    <p>银牌会员</p>
+                    <span>3000</span>
+                </li>
+                <li>
+                    <img src="img/44.png"/>
+                    <p>金牌会员</p>
+                    <span>10000</span>
+                </li>
+                <li>
+                    <img src="img/55.png"/>
+                    <p>砖石会员</p>
+                    <span>40000</span>
+                </li>
+            </ul>
+
+            <table border="1px" cellspacing="0" cellpadding="0">
+                <tr>
+                    <th class="w1">指定行为</th>
+                    <th class="w2">增长成长值</th>
+                    <th class="w3">说明</th>
+                </tr>
+                <tr>
+                    <td class="w1">购物</td>
+                    <td class="w2">+实付金额</td>
+                    <td class="w3">
+                        <p>1、金额四舍五入取整</p>
+                        <p>2、付款成功后发放成长值</p>
+                        <p>3、实付金额（含运费），不含辣豆、优惠券、满减等优惠金额</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="w1">退款</td>
+                    <td class="w2">-退款金额</td>
+                    <td class="w3">
+                        <p>1、金额四舍五入取整</>
+                        <p>2、付款成功后发放成长值</>
+                        <p>3、实付金额（含运费），不含辣豆、优惠券、满减等优惠金额</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="w1">评价(不含晒图)</td>
+                    <td class="w2" style="color: #f35353;">+20</td>
+                    <td class="w3">评价成功后发放</td>
+                </tr>
+                <tr>
+                    <td class="w1">评价(含晒图)</td>
+                    <td class="w2" style="color: #f35353;">+20</td>
+                    <td class="w3">评价成功后发放</td>
+                </tr>
+                <tr>
+                    <td class="w1">每日首次访问商城首页</td>
+                    <td class="w2" style="color: #f35353;">+40</td>
+                    <td class="w3">每日首次访问商城首页时发放</td>
+                </tr>
+            </table>
+        </div>
+        <ol ng-show="isChange1">
+            <li>2016年12月27日 每日首次登录送 <span>成长值 +  5</span></li>
+            <li>2016年12月26日 每日首次登录送 <span>成长值 +  5</span></li>
+            <li>2016年12月25日 每日首次登录送 <span>成长值 +  5</span></li>
+            <li>2016年12月24日 每日首次登录送 <span>成长值 +  5</span></li>
+            <li>2016年12月23日 每日首次登录送 <span>成长值 +  5</span></li>
+        </ol>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 
 
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule']);
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule','centerModule']);
 
 myApp.config(function($stateProvider,$urlRouterProvider){
 
@@ -213,5 +213,11 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			url:'/about',
 			templateUrl:'components/mine/about/about.html',
 			css:'components/mine/about/about.css'
+		})
+		.state('mine.center',{
+			url:'/center',
+			templateUrl:'components/mine/center/center.html',
+			controller:'centerCtrl',
+			css:'components/mine/center/center.css'
 		})
 })
