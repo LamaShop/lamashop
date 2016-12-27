@@ -12,7 +12,10 @@ angular.module('HomeModule',[])
     .service('dataService13',['$http',function($http){
         return $http.get('json/home2.json');
     }])
-	.controller('homeCtrl',['$scope','dataService10','dataService11','dataService12','dataService13',function($scope,dataService10,dataService11,dataService12,dataService13){
+	.service('dataService14',['$http',function($http){
+		return $http.get('json/middle.json');
+	}])
+	.controller('homeCtrl',['$scope','dataService10','dataService11','dataService12','dataService13','dataService14',function($scope,dataService10,dataService11,dataService12,dataService13,dataService14){
 		dataService10.success(function(res){
 			//轮播图数据
 			$scope.arr = res.list;
@@ -30,8 +33,8 @@ angular.module('HomeModule',[])
 			   	observer:true,//修改swiper自己或子元素时，自动初始化swiper
 				observeParents:true,//修改swiper的父元素时，自动初始化swiper
 			    // 如果需要前进后退按钮
-			    nextButton: '.swiper-button-next',
-			    prevButton: '.swiper-button-prev',
+			    // nextButton: '.swiper-button-next',
+			    // prevButton: '.swiper-button-prev',
 			  })
 		})
 
@@ -50,12 +53,17 @@ angular.module('HomeModule',[])
                 $scope.arr4 = res.data;
 
             })
-			$scope.press = function(index){
 
-			}
+		dataService14.success(function(res){
+			$scope.arr5 = res.data.list;
+			console.log($scope.arr5[2].banner)
+		})
 
-
-
+		$scope.press = function(){
+			$scope.body.css({
+				'scrollTop':0
+			})
+		}
 
 
 	}])

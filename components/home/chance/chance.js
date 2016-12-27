@@ -4,12 +4,12 @@
 angular.module('ChanceModule',[])
 
     .service('dataServiceE',['$http',function($http){
-        return $http.get('json/red.json');
+        return $http.get('json/chance.json');
     }])
     .controller('chanceCtrl',['$scope','dataServiceE',function($scope,dataServiceE){
         dataServiceE.success(function(res){
-            $scope.arr = res.data.special;
-            $scope.arr1 = res.data.goods;
-            console.log($scope.arr1);
+            $scope.arr = res.data.list;
+            console.log(res);
+
         })
     }])

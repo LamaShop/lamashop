@@ -14,7 +14,7 @@ html,body{
 #tab{
 	width:100%;
 	height:8%;
-	background:yellowgreen;
+	background:white;
 	position: fixed;
 	z-index: 10;
 }
@@ -24,7 +24,13 @@ html,body{
 	float:left;
 	text-align: center;
 }
+#tab li img{
+	width:1.2rem;
+	height:1.2rem;
+}
 #tab li a{
-	display: inline-block;
+	margin-top:0.1srem;
+	display:block;
 	font-size:0.7rem;
+	color:#999;
 }

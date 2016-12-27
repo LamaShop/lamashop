@@ -1,7 +1,6 @@
 
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','TodayModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule']);
 
-
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule']);
 
 myApp.config(function($stateProvider,$urlRouterProvider){
 
@@ -14,11 +13,11 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		controller:'homeCtrl',
 		css:"components/home/home.css"
 	})
-		.state("home.baoshui",{
-			url:"baoshui",
-			templateUrl:"components/home/baoshui/baoshui.html",
-			controller:'baoshuiCtrl',
-			css:"components/home/baoshui/baoshui.css"
+		.state("home.baoshui", {
+			url: "baoshui",
+			templateUrl: "components/home/baoshui/baoshui.html",
+			controller: 'baoshuiCtrl',
+			css: "components/home/baoshui/baoshui.css"
 		})
 		.state("home.hufu",{
 			url:"hufu",
@@ -32,6 +31,8 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			controller:'japanCtrl',
 			css:"components/home/japan/japan.css"
 		})
+
+
 		.state("home.nai",{
 			url:"nai",
 			templateUrl:"components/home/nai/nai.html",
@@ -44,12 +45,6 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			controller:'yimajingCtrl',
 			css:"components/home/yimajing/yimajing.css"
 		})
-		.state("home.today",{
-			url:"today",
-			templateUrl:"components/home/today/today.html",
-			controller:'todayCtrl',
-			css:"components/home/today/today.css"
-		})
 		.state("home.chance",{
 			url:"chance",
 			templateUrl:"components/home/chance/chance.html",
@@ -61,6 +56,12 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			templateUrl:"components/home/sold/sold.html",
 			controller:'soldCtrl',
 			css:"components/home/sold/sold.css"
+		})
+		.state("home.search",{
+			url:"search",
+			templateUrl:"components/home/search/search.html",
+			controller:'searchCtrl',
+			css:"components/home/search/search.css"
 		})
 	.state("market",{
 		url:"market",
@@ -171,16 +172,12 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 		css:"components/mine/mine.css"
 	})
 
-
-
 		.state("mine.order",{
 			url:"/order",
 			templateUrl:"components/mine/order/order.html",
 			controller:'orderCtrl',
 			css:"components/mine/order/order.css"
 		})
-
-
 
 		.state('mine.collect',{
 			url:'/collect',
@@ -200,5 +197,21 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			controller:'couponCtrl',
 			css:'components/mine/coupon/coupon.css'
 		})
-
+		.state('mine.laDou',{
+			url:'/ladou',
+			templateUrl:'components/mine/ladou/laDou.html',
+			controller:'laDouCtrl',
+			css:'components/mine/ladou/ladou.css'
+		})
+		.state('mine.question',{
+			url:'/question',
+			templateUrl:'components/mine/question/question.html',
+			controller:'questionCtrl',
+			css:'components/mine/question/question.css'
+		})
+		.state('mine.about',{
+			url:'/about',
+			templateUrl:'components/mine/about/about.html',
+			css:'components/mine/about/about.css'
+		})
 })

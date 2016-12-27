@@ -1,0 +1,15 @@
+#about{width:100%;height:100%;background: #f6f4f2;overflow: auto;position: absolute;z-index: 11;}
+#aboutHeader{width: 100%;height: 2.5rem;background: #fff;}
+#aboutHeader>p{font-size: 1rem;line-height: 2.5rem;padding-left: 0.6rem;}
+#aboutHeader>p>a{display: inline-block;width:34%;text-align: left;color: #322228;}
+#aboutMain>p{width:4.45rem;height:6.5rem;background: url("../../../img/icon.png")no-repeat;background-size: 100% 100%;margin: 1.8rem auto;}
+#aboutMain>ul:first-of-type{width: 100%;background: #fff;padding: 1.43rem 0 0.236rem 0}
+#aboutMain>ul:first-of-type li>h3>i{display: inline-block;width:0.34rem;height: 1rem;background: #fc6496;border-radius: 0 4px 4px 0;margin-right: 0.84rem;}
+#aboutMain>ul:first-of-type li>h3{font-size: 0.945rem;color: #fc6496;font-weight: normal;}
+#aboutMain>ul:first-of-type li>p{font-size: 0.8rem;color: #735660;margin: 1rem;}
+#aboutMain>ul:last-of-type{width: 100%;background: #fff;margin-top: 0.4rem;padding: 1.43rem 0 0.236rem 0;}
+#aboutMain>ul:last-of-type li{margin: 1rem;}
+#aboutMain>ul:last-of-type li img{width: 15.4rem;height: auto;margin: 0.8rem 0;}
+#aboutMain>ul:last-of-type li>p{font-size: 0.8rem;color: #735660;}
+#aboutBottom{padding: 2.3rem 0 0.7rem 0;}
+#aboutBottom>p{text-align: center;padding: 0 1rem;color: #999094;font-size:0.67rem; }
