@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','FisherpriceModule','gncModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule','detailsModule','centerModule','ShoppingModule']);
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','FisherpriceModule','gncModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule','detailsModule','centerModule','ShoppingModule','userModule']);
 
 myApp.config(function ($stateProvider,$urlRouterProvider){
 
@@ -199,6 +199,11 @@ myApp.config(function ($stateProvider,$urlRouterProvider){
 			templateUrl:'components/mine/center/center.html',
 			controller:'centerCtrl',
 			css:'components/mine/center/center.css'
+		})
+		.state('mine.user',{
+			url:'/user',
+			templateUrl:'components/mine/user/user.html',
+			css:'components/mine/user/user.css'
 		})
 })
 myApp.controller('myCtrl',['$scope',function ($scope) {

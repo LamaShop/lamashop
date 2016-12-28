@@ -39,7 +39,6 @@
     height:2.3rem;
     font-size:0.6rem;
     position: relative;
-    position: relative;
 }
 .banner .line>ul li img{
     width:1rem;
@@ -77,8 +76,7 @@
 }
 .main_word{
     width:100%;
-    position: fixed;
-    z-index: 12;
+
 }
 .main_word .main_word_list li{
     width:100%;
