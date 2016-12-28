@@ -22,7 +22,6 @@ angular.module('ShoppingModule',[])
             $scope.isShowa = false;
         }
         $scope.buy = function(arr){
-            console.log(arr);
             localStorage.setItem('buycar',JSON.stringify(arr));
 
         }

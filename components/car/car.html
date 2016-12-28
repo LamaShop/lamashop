@@ -1,12 +1,22 @@
 <div id="shopCar">
 	<div id="shopCarHeader">
-		<p>购物车<span>编辑</span></p>
+		<p><a></a>购物车<span>编辑</span></p>
 	</div>
 	<div id="shopCarMain">
 		<span></span>
 		<p>空空的</p>
 		<a ui-sref="home">去逛逛</a>
 	</div>
+	<!--<ul id="shopCarMain">-->
+		<!--<li ng-repeat="obj in goodsArr">-->
+			<!--<i></i>-->
+			<!--<img src="{{obj.goods_thumb}}"/>-->
+			<!--<p>{{obj.goods_name}}</p>-->
+			<!--<p>规格:默认</p>-->
+			<!--<span>{{obj.shop_price}}</span>-->
+			<!--<a>1</a>-->
+		<!--</li>-->
+	<!--</ul>-->
 	<div id="shopCarBottom">
 		<i ng-click="changeBack()" ng-class="{true:'showPinkBack',false:'showWhiteBack'}[backImg]"></i>
 		<span>全选</span>
@@ -14,4 +24,5 @@
 		<span>￥0.00</span>
 		<span>结算</span>
 	</div>
+
 </div>
