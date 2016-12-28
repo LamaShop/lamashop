@@ -11,6 +11,10 @@ angular.module('NaiModule',[])
     }])
     .controller('naiCtrl',['$scope','dataServiceA','dataServiceA1',function($scope,dataServiceA,dataServiceA1){
         dataServiceA.success(function(res){
+            //点击li进入详情页面
+            $scope.look=function (i,obj) {
+                localStorage.setItem('luobin',JSON.stringify(obj));
+            }
             //第一张大图
         $scope.arr = res.data.special;
            // 下面的小图
@@ -23,13 +27,17 @@ angular.module('NaiModule',[])
         dataServiceA1.success(function(res){
             $scope.arr2 = res.data.attr;
             $scope.arr3 = res.data.attr[0].list;
-            $scope.getText = function(i){
+            $scope.getText = function(i,obj){
+                console.log(i);
+                console.log(obj);
                 $scope.isShow = true;
                 $scope.arr3 = [];
                 $scope.arr3 = res.data.attr[i].list;
                 $scope.text =true;
 
             }
+
+
             //点击筛选,触发事件
             $scope.presss = function(){
                 $scope.isShow = true;
@@ -65,4 +73,9 @@ angular.module('NaiModule',[])
         $scope.changeOrderType = function(type){
             $scope.orderType = type;
         }
+
+
+
+
+
     }])

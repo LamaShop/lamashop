@@ -1,64 +1,67 @@
-<div class="top">
-    <a ui-sref="home"><img src="img/15.png" alt=""></a>
-    <h3>宝宝服饰</h3>
-</div>
-
-<div class="banner">
-    <div class="big">
-        <img src="{{arr.banner}}" alt="">
+<div data-ui-view="">
+    <div class="top">
+        <a ui-sref="home"><img src="img/15.png" alt=""></a>
+        <h3>宝宝服饰</h3>
     </div>
-    <div class="line">
-        <ul>
-            <li ng-click="changeOrderType('')"><img src="img/t1.jpg" alt=""><a href="">有货</a></li>
-            <li ng-click="changeOrderType('sold_number')"><a href="">人气</a></li>
-            <li ng-click="changeOrderType('shop_price')"><img src="img/t3.jpg" alt=""><a href="">价格</a></li>
-            <li ng-click="presss()"><img src="img/t2.jpg" alt=""><a href="">筛选</a></li>
-            <li ng-click="show()"><img src="img/t4.jpg" alt=""><a href=""></a></li>
+
+    <div class="banner">
+        <div class="big">
+            <img src="{{arr.banner}}" alt="">
+        </div>
+        <div class="line">
+            <ul>
+                <li ng-click="changeOrderType('')"><img src="img/t1.jpg" alt=""><a href="">有货</a></li>
+                <li ng-click="changeOrderType('sold_number')"><a href="">人气</a></li>
+                <li ng-click="changeOrderType('shop_price')"><img src="img/t3.jpg" alt=""><a href="">价格</a></li>
+                <li ng-click="presss()"><img src="img/t2.jpg" alt=""><a href="">筛选</a></li>
+                <li ng-click="show()"><img src="img/t4.jpg" alt=""><a href=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="main_word" ng-show="aShow">
+        <ul class="main_word_list">
+            <li ng-repeat="obj1 in arr1 | orderBy:orderType" ui-sref=".shopping" ng-click="look(i,obj1)">
+                <div><img src="{{obj1.goods_thumb}}" alt=""></div>
+                <p>{{obj1.goods_name}}</p>
+                <span>已售 <i>{{obj1.sold_number}}</i> 件</span>
+                <span class="s1">¥{{obj1.shop_price}}</span><span class="s2">¥{{obj1.market_price}}</span>
+                <h5>{{obj1.discount}}折</h5>
+            </li>
         </ul>
     </div>
-</div>
-<div class="clearfix"></div>
-<div class="main_word" ng-show="aShow">
-    <ul class="main_word_list">
-        <li ng-repeat="obj1 in arr1 | orderBy:orderType" >
-            <div><img src="{{obj1.goods_thumb}}" alt=""></div>
-            <p>{{obj1.goods_name}}</p>
-            <span>已售 <i>{{obj1.sold_number}}</i> 件</span>
-            <span class="s1">¥{{obj1.shop_price}}</span><span class="s2">¥{{obj1.market_price}}</span>
-            <h5>{{obj1.discount}}折</h5>
-        </li>
-    </ul>
-</div>
 
-<div class="clearfix"></div>
-<div class="main_word2" ng-show="bShow">
-    <ul class="main_word_list2">
-        <li ng-repeat="obj1 in arr1 | orderBy:orderType" >
-            <div><img src="{{obj1.goods_thumb}}" alt=""></div>
-            <p>{{obj1.goods_name}}</p>
-            <span></span>
-            <span class="s1">¥{{obj1.shop_price}}</span><span class="s2">¥{{obj1.market_price}}</span>
-            <h5>{{obj1.discount}}折</h5>
-        </li>
-    </ul>
-
-
-<div class="mask" ng-show="isShow" ng-click="getHide()"></div>
-<div class="back" ng-show="isShow">
-    <div class="leftList" >
-        <ul>
-            <li ng-repeat="(i,obj2) in arr2" ng-click="getText(i)"><p>{{obj2.name}}</p></li>
+    <div class="clearfix"></div>
+    <div class="main_word2" ng-show="bShow">
+        <ul class="main_word_list2">
+            <li ng-repeat="(i,obj1) in arr1 | orderBy:orderType" ui-sref=".shopping" ng-click="look(i,obj1)">
+                <div><img src="{{obj1.goods_thumb}}" alt=""></div>
+                <p>{{obj1.goods_name}}</p>
+                <span></span>
+                <span class="s1">¥{{obj1.shop_price}}</span><span class="s2">¥{{obj1.market_price}}</span>
+                <h5>{{obj1.discount}}折</h5>
+            </li>
         </ul>
+
+
+        <div class="mask" ng-show="isShow" ng-click="getHide()"></div>
+        <div class="back" ng-show="isShow">
+            <div class="leftList" >
+                <ul>
+                    <li ng-repeat="(i,obj2) in arr2" ng-click="getText(i,obj2)"><p>{{obj2.name}}</p></li>
+                </ul>
+            </div>
+            <div class="rightList">
+                <ul>
+                    <li ng-repeat="(j,obj3) in arr3"  ng-click="pressImg(j)" ng-class="{'p2':j==num}"><p >{{obj3.text}}</p><div><img src="img/gou1.jpg" alt=""></div></li>
+                </ul>
+            </div>
+            <div class="footWord">
+                <p >已选择:<span>{{arr4}}</span></p>
+            </div>
+            <div class="footer">
+                <p ng-click="oneMore()">重置</p><span ng-click="changeOrderType('arr4')">确定</span>
+            </div>
+        </div>
+
     </div>
-    <div class="rightList">
-        <ul>
-            <li ng-repeat="(j,obj3) in arr3"  ng-click="pressImg(j)" ng-class="{'p2':j==num}"><p >{{obj3.text}}</p><div><img src="img/gou1.jpg" alt=""></div></li>
-        </ul>
-    </div>
-    <div class="footWord">
-        <p >已选择:<span>{{arr4}}</span></p>
-    </div>
-    <div class="footer">
-        <p ng-click="oneMore()">重置</p><span ng-click="changeOrderType('arr4')">确定</span>
-    </div>
-</div>

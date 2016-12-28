@@ -59,7 +59,10 @@ angular.module('HomeModule',[])
 			//console.log($scope.arr5[2].banner)
 		})
 
-
+		$scope.press = function(){
+			document.body.scrollTop = 0;
+			// alert('123');
+		}
 
 
 	}])

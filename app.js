@@ -1,6 +1,6 @@
 
 
-var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule','centerModule']);
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule','centerModule','ShoppingModule']);
 
 myApp.config(function($stateProvider,$urlRouterProvider){
 
@@ -38,6 +38,12 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			templateUrl:"components/home/nai/nai.html",
 			controller:'naiCtrl',
 			css:"components/home/nai/nai.css"
+		})
+		.state("home.nai.shopping",{
+			url:"/shopping",
+			templateUrl:"components/home/nai/shopping/shopping.html",
+			controller:'shoppingCtrl',
+			css:"components/home/nai/shopping/shopping.css"
 		})
 		.state("home.yimajing",{
 			url:"yimajing",
