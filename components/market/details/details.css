@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.goodsList{
+    width: 100%;
+    height:100%;
+    background: rgb(246,246,246);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.goodsList .header{
+    height: 2rem;
+    background: #ffffff;
+    padding: 0.5rem;
+}
+.goodsList .header span{
+    display: inline-block;
+    background-image: url("../../../img/mall_icons.png");
+    background-size: 120px;
+}
+.goodsList .header .toFather{
+    width: 0.61rem;
+    height:1.25rem;
+    background-position: -22px -140px;
+
+}
+.goodsList .header .toHome{
+    width: 1.25rem;
+    height:1.25rem;
+    background-position: -57px -140px;
+    margin: 0 11.5rem 0 1.5rem;
+}
+.goodsList .header .share{
+    width: 1.25rem;
+    height:1.25rem;
+    background-position: -35px -140px;
+}
+/*轮播*/
+.goodsList .swiper-wrapper{
+    width: 100%;
+    height: 17.78rem;
+}
+.goodsList .swiper-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.goodsList .price{
+    height: 2rem;
+    line-height: 2rem;
+    background: #ffffff;
+}
+.goodsList .price .shopPrice{
+    font-size:1.2rem;
+    color: red;
+    margin:0 1rem 0 1rem;
+}
+.goodsList .price .marketPrice{
+    text-decoration: line-through;
+}
+.goodsList h2{
+    font-size:0.9rem;
+    background: #fff;
+    padding: 0.5rem;
+}
+.goodsList .buy{
+    width:100%;
+    height:2.72rem;
+    line-height: 2.72rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom:0;
+    display: flex;
+}
+.goodsList .buy .btnBuy{
+    width:40%;
+    height: 100%;
+    background: rgb(145,97,29);
+}
+.goodsList .buy .addCar{
+    width:40%;
+    height: 100%;
+    background: rgb(252,100,150);
+}
+.goodsList .buy .carNum{
+    width:20%;
+    height: 100%;
+    background: rgb(115,86,96);
+}
