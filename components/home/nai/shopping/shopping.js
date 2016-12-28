@@ -21,5 +21,11 @@ angular.module('ShoppingModule',[])
         $scope.right = function(){
             $scope.isShowa = false;
         }
+        $scope.buy = function(arr){
+            console.log(arr);
+            localStorage.setItem('buycar',JSON.stringify(arr));
+
+        }
+
     })
 }])
