@@ -59,7 +59,7 @@ angular.module('HomeModule',[])
 			//console.log($scope.arr5[2].banner)
 		})
 
-<<<<<<< HEAD
+
 		var num=0;
 		setInterval(function(){
 			num++;
@@ -72,12 +72,12 @@ angular.module('HomeModule',[])
 				}
 			});
 
-=======
+
 		$scope.press = function(){
 			document.body.scrollTop = 0;
 			// alert('123');
 		}
->>>>>>> 583745389e7d52cf6975a7c6c4b473e64b4a5cb2
+
 
 		},1200);
 
