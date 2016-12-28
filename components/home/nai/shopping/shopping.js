@@ -10,5 +10,16 @@ angular.module('ShoppingModule',[])
     dataServiceH.success(function(res){
         $scope.arr = JSON.parse(localStorage.getItem('luobin'));
        // console.log($scope.arr);
+        $scope.isShowa = false;
+        $scope.setText = function(){
+            $scope.isShowa = true;
+        }
+
+        $scope.gotHide = function(){
+            $scope.isShowa = false;
+        }
+        $scope.right = function(){
+            $scope.isShowa = false;
+        }
     })
 }])
