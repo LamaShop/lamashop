@@ -77,7 +77,8 @@
 }
 .main_word{
     width:100%;
-
+    position: fixed;
+    z-index: 12;
 }
 .main_word .main_word_list li{
     width:100%;
@@ -124,4 +125,138 @@
     top:5rem;
     right:1rem;
 }
+.mask{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 11;
+    background:rgba(0,0,0,0.5);
+}
+.back{
+    width:100%;
+    height:70%;
+    background:white;
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index: 12;
+}
+.back .leftList{
+    width:5rem;
+    height:18rem;
+    background:#f6f6f6;
+}
+.back .leftList ul li{
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+    line-height:2rem;
+    font-size:0.7rem;
+    cpolor:#333;
+    border-bottom:1px solid #999999;
+}
 
+.back .rightList{
+    width:13rem;
+    height:18rem;
+    /*margin-left:5rem;*/
+    /*display: inline-block;*/
+    position: absolute;
+    top:0;
+    left:5rem;
+}
+.back .rightList ul li{
+    width:100%;
+    height:2rem;
+    position: relative;
+}
+.a1{
+    background:#cacaca;
+    color:#333;
+}
+.a2{
+    background:white;
+    color:pink;
+}
+.back .rightList ul li p{
+    width:4rem;
+    height:2rem;
+    text-align: left;
+    line-height:2rem ;
+    font-size:0.7rem;
+    margin-left:1rem;
+}
+.p1{
+    color:#333;
+}
+.p2{
+    color:pink;
+}
+.back .rightList ul li>div{
+    width:1rem;
+    height:1rem;
+    position: absolute;
+    top:0.2rem;
+    right:1rem;
+    border:1px solid #cacaca;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.6rem;
+}
+.back .rightList ul li>div img{
+    width:100%;
+    height:100%;
+}
+.img1{
+    display: block;
+}
+.img2{
+    display: none;
+}
+.back .footWord{
+    width:100%;
+    height:2rem;
+    border-top:1px solid #333;
+}
+.back .footWord p{
+    display: inline-block;
+    width:10rem;
+    height:2rem;
+    text-indent: 1rem;
+    line-height:2rem;
+    font-size:0.7rem;
+}
+
+.back .footer{
+    width:100%;
+    height:2.5rem;
+
+}
+.back .footer p{
+    display: inline-block;
+    width:5rem;
+    height:1.6rem;
+    border-radius: 0.4rem;
+    border:1px solid pink;
+    font-size:0.7rem;
+    margin-top:0.45rem;
+    margin-left:2rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+.back .footer span{
+    display: inline-block;
+    width:5rem;
+    height:1.6rem;
+    border-radius: 0.4rem;
+    border:1px solid pink;
+    font-size:0.7rem;
+    margin-top:0.45rem;
+    margin-left:2rem;
+    text-align: center;
+    line-height: 1.6rem;
+    background:pink;
+    color:white;
+}

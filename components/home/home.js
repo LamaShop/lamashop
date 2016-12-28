@@ -19,7 +19,7 @@ angular.module('HomeModule',[])
 		dataService10.success(function(res){
 			//轮播图数据
 			$scope.arr = res.list;
-				console.log(res);
+				//console.log(res);
 			//轮播图
 			mySwiper = new Swiper ('.swiper-container', {
 			    direction: 'horizontal',
@@ -56,14 +56,30 @@ angular.module('HomeModule',[])
 
 		dataService14.success(function(res){
 			$scope.arr5 = res.data.list;
-			console.log($scope.arr5[2].banner)
+			//console.log($scope.arr5[2].banner)
 		})
 
+
+		var num=0;
+		setInterval(function(){
+			num++;
+			$('.scroll>div').animate({
+				top:-15*num
+			},600,function(){
+				if(num==12){
+					$('.scroll>div').css('top',0);
+					num=0;
+				}
+			});
+
+
 		$scope.press = function(){
-			$scope.body.css({
-				'scrollTop':0
-			})
+			document.body.scrollTop = 0;
+			// alert('123');
 		}
+
+
+		},1200);
 
 
 	}])

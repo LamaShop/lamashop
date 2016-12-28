@@ -4,4 +4,10 @@ angular.module('addressModule',[])
         $scope.move=function () {
             $scope.isTrue1=!$scope.isTrue1;
         }
+        $("#city").citySelect({
+            prov: "北京",
+            city: "北京市",
+            dist: "东城区",
+            // nodata: "none"
+        });
     }])

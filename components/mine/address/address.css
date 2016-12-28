@@ -1,5 +1,5 @@
 #address{width:100%;height:100%;position: fixed;z-index: 11;background: #f6f6f6;}
-#addressMain{width:100%;height: 65%;background: #fff;}
+#addressMain{width:100%;height: 70%;background: #fff;}
 #addressMain>div:first-of-type{width:100%;height: 2.5rem;border-bottom: 1px solid #e3e3e3;font-size: 1rem;text-align: center;line-height: 2.5rem;}
 #addressMain>div:first-of-type a{float: left;margin-left: 0.5rem;color: #322228;}
 #addressMain>p{position: relative;padding: 0.62rem 0.84rem 0.62rem 0;border-bottom: 1px solid #e3e3e3;margin-left: 1rem;font-size: 0.78rem;color: #735660;}
@@ -9,3 +9,11 @@
 #addressMain .i3{display: inline-block;width: 1.56rem;height: 1.56rem;border: 1px solid #cacaca;border-radius: 50%;position: absolute;left:13rem;top:0.45rem;background: #fff;}
 #addressMain .i2{display: inline-block;width: 1.56rem;height: 1.56rem;border: 1px solid #cacaca;border-radius: 50%;position: absolute;left:14.44rem;top:0.45rem;background: #fff;}
 #addressMain>div:last-of-type{width: 100%;height: 2.67rem;background: #fff;font-size: 0.84rem;color: #fc6496;text-align: center;line-height: 2.67rem;position: absolute;left: 0;bottom: 0;border-top:1px solid #e3e3e3; }
+#city{display: inline-block;margin-left: 4rem;}
+#city select{display: block;border: 1px solid #e3e3e3;height:1.56rem; width: 11rem;margin-top: 0.5rem;}
+#addressMain>p:nth-of-type(3){position: relative;}
+#addressMain>p:nth-of-type(3) span{position: absolute;top: 3rem;}
+#addressMain>p:nth-of-type(4){position: relative;}
+#addressMain>p:nth-of-type(4) span{position: absolute;top: 1.5rem;}
+#addressMain>p:nth-of-type(4) textarea{border: none;margin-left: 4rem;}
+#addressMain>p:last-of-type{border-bottom: none;}
