@@ -92,3 +92,66 @@
     height: 100%;
     background: rgb(115,86,96);
 }
+.popupWinow{
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index:199;
+}
+.goodsWindow{
+    width:100%;
+    height: 16rem;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index:299;
+}
+.goodsWindow .head{
+    height: 3.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    border: 1px solid lightgray;
+    margin-bottom: 1rem;
+}
+.goodsWindow .head img{
+    width:3rem;
+    height: 3rem;
+}
+.goodsWindow .head p{
+    width:12.77rem;
+    height: 100%;
+    padding: 0.6rem 0 0 0;
+}
+.goodsWindow .head .icon{
+    width: 2rem;
+    height: 100%;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.goodsWindow .btns{
+    width: 100%;
+    height: 2.22rem;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+.goodsWindow .btns>div{
+    width: 8.28rem;
+    height: 100%;
+    line-height: 2.22rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+.goodsWindow .btns .btn1{
+    background: rgb(255,171,52);
+}
+.goodsWindow .btns .btn2{
+    background: rgb(252,100,150);
+}

@@ -1,4 +1,12 @@
 angular.module('detailsModule',[])
     .controller('detailsCtrl',['$scope','$rootScope',function($scope,$rootScope){
-       $scope.obj=$rootScope.obj;
+        $scope.obj=$rootScope.obj;
+        $scope.isShow1=false;
+        $scope.isShow2=false;
+        $rootScope.goodsArr=[];
+        $rootScope.addGoods=function(good){
+            $rootScope.good=good;
+            $rootScope.goodsArr.push($rootScope.good);
+            console.log($rootScope.goodsArr);
+        }
     }])
