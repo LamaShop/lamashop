@@ -7,7 +7,6 @@ angular.module('wylpModule',[])
             $scope.arr=res.data.list;
             $scope.sendObj=function(obj){
                 $rootScope.obj=obj;
-                console.log($rootScope.obj);
             }
         })
     }])
