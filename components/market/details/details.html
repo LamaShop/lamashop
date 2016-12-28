@@ -1,0 +1,20 @@
+<div class="goodsList">
+    <div class="header">
+        <span class="toFather" ui-sref="market"></span>
+        <span class="toHome" ui-sref="home"></span>
+        <span class="share"></span>
+    </div>
+   <div class="swiper-wrapper">
+       <img src="{{obj.goods_thumb}}" alt="">
+   </div>
+   <div class="price">
+       <span class="shopPrice">¥{{obj.shop_price}}</span>
+       <span class="marketPrice">¥{{obj.market_price}}</span>
+   </div>
+    <h2>{{obj.goods_name}}</h2>
+    <div class="buy">
+        <div class="btnBuy">立即购买</div>
+        <div class="addCar">加入购物车</div>
+        <div class="carNum"></div>
+    </div>
+</div>

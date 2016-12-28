@@ -1,7 +1,7 @@
 <div data-ui-view="">
     <div class="top">
-        <img src="img/15.png" alt="">
-        <img src="" alt="">
+        <a href=""><img ui-sref="home.nai" src="img/15.png" alt=""></a>
+        <span ui-sref="home"><img src="img/home2.jpg" alt=""></span>
     </div>
 </div>
 
@@ -17,5 +17,23 @@
     </ul>
 </div>
 <div class="footer">
-    <p>立即购买</p><span>加入购物车</span><div>123<img src="" alt=""></div>
+    <p ng-click="setText()">立即购买</p><span ng-click="setText()">加入购物车</span><div>123<img src="" alt=""></div>
 </div>
+
+<div class="mask" ng-click="gotHide()" ng-show="isShowa">123</div>
+<div class="whole" ng-show="isShowa">
+    <div class="shop" >
+        <div><img src="{{arr.goods_thumb}}" alt=""></div>
+        <p>{{arr.goods_name}}</p>
+        <span class="left">¥{{arr.market_price}}</span><i>¥{{arr.shop_price}}</i>
+        <span class="right" ng-click="right()">x</span>
+    </div>
+    <div class="color">
+        <p>颜色</p>
+        <span>杏色</span>
+    </div>
+    <div class="foott">
+        <span class="s1">立即购买</span><span class="s2">加入购物车</span>
+    </div>
+</div>
+
