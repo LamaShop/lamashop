@@ -10,7 +10,7 @@ angular.module('YimajingModule',[])
         dataServiceB.success(function(res){
             $scope.arr = res.data.special;
             $scope.arr1 = res.data.goods;
-            console.log($scope.arr1);
+          //  console.log($scope.arr1);
         })
         $scope.orderType = '';
         $scope.changeOrderType = function(type){
