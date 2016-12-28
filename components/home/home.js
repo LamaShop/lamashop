@@ -59,7 +59,20 @@ angular.module('HomeModule',[])
 			//console.log($scope.arr5[2].banner)
 		})
 
+		var num=0;
+		setInterval(function(){
+			num++;
+			$('.scroll>div').animate({
+				top:-15*num
+			},600,function(){
+				if(num==12){
+					$('.scroll>div').css('top',0);
+					num=0;
+				}
+			});
 
+
+		},1200);
 
 
 	}])

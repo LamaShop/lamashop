@@ -9,13 +9,13 @@
 	<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
 </head>
 <body data-ng-app="myApp">
-	<div id="wrap" >
+	<div id="wrap" ng-controller="myCtrl">
    		<div id="main" data-ui-view=""></div>
   	 	<ul id="tab">
-	   		<li ui-sref=".home"><img src="img/home.jpg" alt=""><a href="">首页</a></li>
-	   		<li ui-sref=".market"><img src="img/market.jpg" alt=""><a href="">商城</a></li>
-	   		<li ui-sref=".car"><img src="img/car.jpg" alt=""><a href= "">购物车</a></li>
-	   		<li ui-sref=".mine"><img src="img/mine.jpg" alt=""><a href="">我的</a></li>
+	   		<li ui-sref=".home" ng-click="changColorA()" ng-class="{true:'imgBack1',false:'imgBack2'}[color1]">特价</li>
+	   		<li ui-sref=".market" ng-click="changColorB()" ng-class="{true:'imgBack3',false:'imgBack4'}[color2]">商城</li>
+	   		<li ui-sref=".car" ng-click="changColorC()" ng-class="{true:'imgBack5',false:'imgBack6'}[color3]">购物车</li>
+	   		<li ui-sref=".mine" ng-click="changColorD()" ng-class="{true:'imgBack7',false:'imgBack8'}[color4]">我的</li>
    </div>
 </body>
 <script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>

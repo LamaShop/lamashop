@@ -2,31 +2,31 @@
 
 var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule','centerModule']);
 
-myApp.config(function($stateProvider,$urlRouterProvider){
+myApp.config(function ($stateProvider,$urlRouterProvider){
 
-	$urlRouterProvider.when("","/home");
+	$urlRouterProvider.when("", "/home");
 
 	$stateProvider
 	.state("home",{
-		url:"home",
+		url:"/home",
 		templateUrl:"components/home/home.html",
 		controller:'homeCtrl',
 		css:"components/home/home.css"
 	})
 		.state("home.baoshui", {
-			url: "baoshui",
+			url: "/baoshui",
 			templateUrl: "components/home/baoshui/baoshui.html",
 			controller: 'baoshuiCtrl',
 			css: "components/home/baoshui/baoshui.css"
 		})
 		.state("home.hufu",{
-			url:"hufu",
+			url:"/hufu",
 			templateUrl:"components/home/hufu/hufu.html",
 			controller:'hufuCtrl',
 			css:"components/home/hufu/hufu.css"
 		})
 		.state("home.japan",{
-			url:"japan",
+			url:"/japan",
 			templateUrl:"components/home/japan/japan.html",
 			controller:'japanCtrl',
 			css:"components/home/japan/japan.css"
@@ -34,37 +34,37 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 
 
 		.state("home.nai",{
-			url:"nai",
+			url:"/nai",
 			templateUrl:"components/home/nai/nai.html",
 			controller:'naiCtrl',
 			css:"components/home/nai/nai.css"
 		})
 		.state("home.yimajing",{
-			url:"yimajing",
+			url:"/yimajing",
 			templateUrl:"components/home/yimajing/yimajing.html",
 			controller:'yimajingCtrl',
 			css:"components/home/yimajing/yimajing.css"
 		})
 		.state("home.chance",{
-			url:"chance",
+			url:"/chance",
 			templateUrl:"components/home/chance/chance.html",
 			controller:'chanceCtrl',
 			css:"components/home/chance/chance.css"
 		})
 		.state("home.sold",{
-			url:"sold",
+			url:"/sold",
 			templateUrl:"components/home/sold/sold.html",
 			controller:'soldCtrl',
 			css:"components/home/sold/sold.css"
 		})
 		.state("home.search",{
-			url:"search",
+			url:"/search",
 			templateUrl:"components/home/search/search.html",
 			controller:'searchCtrl',
 			css:"components/home/search/search.css"
 		})
 	.state("market",{
-		url:"market",
+		url:"/market",
 		templateUrl:"components/market/market.html",
 		controller:'marketCtrl',
 		css:"components/market/market.css"
@@ -160,13 +160,13 @@ myApp.config(function($stateProvider,$urlRouterProvider){
         css:'components/market/rk/rk.css'
     })
 	.state("car",{
-		url:"car",
+		url:"/car",
 		templateUrl:"components/car/car.html",
 		controller:'carCtrl',
 		css:"components/car/car.css"
 	})
 	.state("mine",{
-		url:"mine",
+		url:"/mine",
 		templateUrl:"components/mine/mine.html",
 		controller:'mineCtrl',
 		css:"components/mine/mine.css"
@@ -221,3 +221,33 @@ myApp.config(function($stateProvider,$urlRouterProvider){
 			css:'components/mine/center/center.css'
 		})
 })
+myApp.controller('myCtrl',['$scope',function ($scope) {
+	$scope.color1=false;
+	$scope.color2=true;
+	$scope.color3=true;
+	$scope.color4=true;
+	$scope.changColorA=function () {
+		$scope.color1=false;
+		$scope.color2=true;
+		$scope.color3=true;
+		$scope.color4=true;
+	}
+	$scope.changColorB=function () {
+		$scope.color2=false;
+		$scope.color1=true;
+		$scope.color3=true;
+		$scope.color4=true;
+	}
+	$scope.changColorC=function () {
+		$scope.color3=false;
+		$scope.color2=true;
+		$scope.color1=true;
+		$scope.color4=true;
+	}
+	$scope.changColorD=function () {
+		$scope.color4=false;
+		$scope.color2=true;
+		$scope.color3=true;
+		$scope.color1=true;
+	}
+}])

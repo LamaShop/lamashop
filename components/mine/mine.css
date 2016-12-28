@@ -2,7 +2,7 @@
 #mineHeader{width:100%;height: 10.8rem;background: url("../../img/my_bg.jpg") no-repeat;}
 #mineHeader span:first-of-type{padding: 0.5rem 0 0 0.5rem;display: block;width: 0.8rem;height:0.87rem;background: url("../../img/mall_icons.png")no-repeat -22px -266px;background-size:120px 295px ;}
 #mineHeader a{color: #fff;}
-#mineHeader>img{width:3.9rem;height: 3.9rem;padding: 0 0 0.5rem 7rem;display: block}
+#mineHeader>img{width:3.9rem;height: 3.9rem;margin: 0 0 0.5rem 7rem;display: block;border: 2px solid #fea2c7;border-radius: 50%;}
 #mineHeader>p{width:100%;color: #fff;text-align: center;line-height: 1.5rem;}
 #mineHeader>p:first-of-type{fot-size:0.7rem;}
 #mineHeader>p:last-of-type{font-size: 0.67rem;}
