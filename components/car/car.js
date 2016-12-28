@@ -4,6 +4,6 @@ angular.module('CarModule',[])
         $scope.changeBack=function () {
             $scope.backImg=!$scope.backImg;
         }
-        $scope.arr1 = JSON.parse(localStorage.getItem('buycar'));
-        console.log($scope.arr1);
+        $scope.arrA = JSON.parse(localStorage.getItem('buycar'));
+        console.log($scope.arrA);
     }])
