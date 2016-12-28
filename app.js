@@ -1,5 +1,4 @@
-
-
+var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','FisherpriceModule','gncModule','FisherpriceModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule','detailsModule']);
 var myApp = angular.module('myApp',['ui.router','angularCSS','HomeModule','MarketModule','CarModule','mineModule','BaoshuiModule','HufuModule','JapanModule','NaiModule','YimajingModule','wylpModule','anessaModule','kingwifeModule','sanaModule','aiuModule','dumexModule','rkModule','orderModule','ChanceModule','SoldModule','collectModule','addressModule','couponModule','SearchModule','laDouModule','questionModule','aboutModule','centerModule','ShoppingModule']);
 
 myApp.config(function ($stateProvider,$urlRouterProvider){
@@ -111,53 +110,11 @@ myApp.config(function ($stateProvider,$urlRouterProvider){
         controller:'aiuCtrl',
         css:'components/market/aiu/aiu.css'
     })
-    .state("market.jmj", {
-        url:"/jmj",
-        templateUrl: "components/market/jmj/jmj.html",
-        // controller:'aiuCtrl',
-        css:'components/market/jmj/jmj.css'
-    })
-    .state("market.goatSoap", {
-        url:"/goatSoap",
-        templateUrl: "components/market/goatSoap/goatSoap.html",
-        // controller:'aiuCtrl',
-        css:'components/market/goatSoap/goatSoap.css'
-    })
-    .state("market.cloud", {
-        url:"/cloud",
-        templateUrl: "components/market/cloud/cloud.html",
-        // controller:'aiuCtrl',
-        css:'components/market/cloud/cloud.css'
-    })
     .state("market.dumex", {
         url:"/dumex",
         templateUrl: "components/market/dumex/dumex.html",
         controller:'dumexCtrl',
         css:'components/market/dumex/dumex.css'
-    })
-    .state("market.devondale", {
-        url:"/devondale",
-        templateUrl: "components/market/devondale/devondale.html",
-        // controller:'dumexCtrl',
-        css:'components/market/devondale/devondale.css'
-    })
-    .state("market.bilo", {
-        url:"/bilo",
-        templateUrl: "components/market/bilo/bilo.html",
-        // controller:'dumexCtrl',
-        css:'components/market/bilo/bilo.css'
-    })
-    .state("market.adl", {
-        url:"/adl",
-        templateUrl: "components/market/adl/adl.html",
-        // controller:'dumexCtrl',
-        css:'components/market/adl/adl.css'
-    })
-    .state("market.mkq", {
-        url:"/mkq",
-        templateUrl: "components/market/mkq/mkq.html",
-        // controller:'dumexCtrl',
-        css:'components/market/mkq/mkq.css'
     })
     .state("market.rk", {
         url:"/rk",
@@ -165,6 +122,24 @@ myApp.config(function ($stateProvider,$urlRouterProvider){
         controller:'rkCtrl',
         css:'components/market/rk/rk.css'
     })
+	.state("market.gnc", {
+		url:"/gnc",
+		templateUrl: "components/market/gnc/gnc.html",
+		controller:'gncCtrl',
+		css:'components/market/gnc/gnc.css'
+	})
+	.state("market.Fisherprice", {
+		url:"/Fisherprice",
+		templateUrl: "components/market/Fisherprice/Fisherprice.html",
+		controller:'FisherpriceCtrl',
+		css:'components/market/Fisherprice/Fisherprice.css'
+	})
+	.state("market.details", {
+		url:"/details",
+		templateUrl: "components/market/details/details.html",
+		controller:'detailsCtrl',
+		css:'components/market/details/details.css'
+	})
 	.state("car",{
 		url:"/car",
 		templateUrl:"components/car/car.html",
