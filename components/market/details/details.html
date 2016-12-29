@@ -4,13 +4,13 @@
         <span class="toHome" ui-sref="home"></span>
         <span class="share"></span>
     </div>
-   <div class="swiper-wrapper">
-       <img src="{{obj.goods_thumb}}" alt="">
-   </div>
-   <div class="price">
-       <span class="shopPrice">¥{{obj.shop_price}}</span>
-       <span class="marketPrice">¥{{obj.market_price}}</span>
-   </div>
+    <div class="swiper-wrapper">
+        <img src="{{obj.goods_thumb}}" alt="">
+    </div>
+    <div class="price">
+        <span class="shopPrice">￥{{obj.shop_price}}</span>
+        <span class="marketPrice">￥{{obj.market_price}}</span>
+    </div>
     <h2>{{obj.goods_name}}</h2>
     <div class="buy">
         <div class="btnBuy" ng-click="isShow2= true;isShow1 = true">立即购买</div>
@@ -25,12 +25,29 @@
             <div class="icon" ng-click="isShow1= false;isShow2 = false">X</div>
         </div>
         <div class="price">
-            <span class="shopPrice">¥{{obj.shop_price}}</span>
-            <span class="marketPrice">¥{{obj.market_price}}</span>
+            <span class="shopPrice">￥{{obj.shop_price}}</span>
+            <span class="marketPrice">￥{{obj.market_price}}</span>
+        </div>
+        <div class="options">
+            <div class="title">数量:</div>
+            <div class="numOptions">
+                <select id="sel">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
         </div>
         <div class="btns">
             <div class="btn1">立即购买</div>
-            <div class="btn2" ng-click="addGoods(obj)">加入购物车</div>
+            <div class="btn2" ng-click="add(obj)">加入购物车</div>
         </div>
     </div>
 </div>
