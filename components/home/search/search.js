@@ -4,11 +4,11 @@
 angular.module('SearchModule',[])
 
     .service('dataServiceG',['$http',function($http){
-        return $http.get('json/sold.json');
+        return $http.get('json/search.json');
     }])
     .controller('searchCtrl',['$scope','dataServiceG',function($scope,dataServiceG){
         dataServiceG.success(function(res){
-            $scope.arr = res.data.list;
+            $scope.arr = res;
             console.log(res);
         })
 

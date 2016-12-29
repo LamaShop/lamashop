@@ -17,10 +17,10 @@
     </ul>
 </div>
 <div class="footer">
-    <p ng-click="setText()">立即购买</p><span ng-click="setText()">加入购物车</span><div>123<img src="" alt=""></div>
+    <p ng-click="setText()">立即购买</p><span ng-click="setText()">加入购物车</span><div><img src="img/shopcar.jpg" alt=""></div>
 </div>
 
-<div class="mask" ng-click="gotHide()" ng-show="isShowa">123</div>
+<div class="mask" ng-click="gotHide()" ng-show="isShowa"></div>
 <div class="whole" ng-show="isShowa">
     <div class="shop" >
         <div><img src="{{arr.goods_thumb}}" alt=""></div>
@@ -32,8 +32,17 @@
         <p>颜色</p>
         <span>杏色</span>
     </div>
+    <div class="size">
+        <ul>
+            <li ng-click="getColor()">130码(120-125cm)</li>
+            <li ng-click="getColor()">125码(110-115cm)</li>
+            <li ng-click="getColor()">120码(100-105cm)</li>
+            <li ng-click="getColor()">110码(90-95cm)</li>
+            <li ng-click="getColor()">140码(130-135cm)</li>
+        </ul>
+    </div>
     <div class="foott">
-        <span class="s1" ng-click="buy(arr)" ui-sref="car">立即购买</span><span class="s2">加入购物车</span>
+        <span class="s1" ng-click="buy(arr)" ui-sref="car">立即购买</span><span class="s2" ng-class="{'true':ss,'false':sss}[bcolor]">加入购物车</span>
     </div>
 </div>
 
