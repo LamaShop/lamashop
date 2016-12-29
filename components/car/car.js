@@ -7,6 +7,14 @@ angular.module('CarModule',[])
             // $scope.backImg1=!$scope.backImg1;
         }
 
+<<<<<<< HEAD
+        $scope.arrA = JSON.parse(localStorage.getItem('buycar'));
+        console.log($scope.arrA);
+
+
+        // console.log($rootScope.goodsArr);
+        
+=======
         // console.log($rootScope.goodsArr);
         $scope.arrGoods=JSON.parse(localStorage.getItem('buyCar'))
         $scope.sum=localStorage.getItem('sum')
@@ -22,4 +30,5 @@ angular.module('CarModule',[])
             $scopeisShow3=true;
             $scopeisShow4=false;
         }
+>>>>>>> 0be015175c94aebfddfb3d3895506247edad74f9
     }])

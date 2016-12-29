@@ -27,4 +27,9 @@ angular.module('ShoppingModule',[])
         }
 
     })
+    $scope.bcolor = true;
+    $scope.getColor = function(){
+        // alert(123);
+        $scope.bcolor = false;
+    }
 }])
