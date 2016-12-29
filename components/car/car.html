@@ -1,27 +1,27 @@
 <div id="shopCar">
 	<div id="shopCarHeader">
-		<p><a></a>购物车<span>编辑</span></p>
+		<p><a ui-sref="market.details"><</a>购物车<span ng-click="textChange()" ng-show="isShow3">编辑</span><span ng-click="textChange1()" ng-show="isShow4">完成</span></p>
 	</div>
-	<div id="shopCarMain">
-		<span></span>
-		<p>空空的</p>
-		<a ui-sref="home">去逛逛</a>
-	</div>
-	<!--<ul id="shopCarMain">-->
-		<!--<li ng-repeat="obj in goodsArr">-->
-			<!--<i></i>-->
-			<!--<img src="{{obj.goods_thumb}}"/>-->
-			<!--<p>{{obj.goods_name}}</p>-->
-			<!--<p>规格:默认</p>-->
-			<!--<span>{{obj.shop_price}}</span>-->
-			<!--<a>1</a>-->
-		<!--</li>-->
-	<!--</ul>-->
+	<!--<div id="shopCarMain">-->
+		<!--<span></span>-->
+		<!--<p>空空的</p>-->
+		<!--<a ui-sref="home">去逛逛</a>-->
+	<!--</div>-->
+	<ul id="shopCarMain">
+		<li ng-repeat="obj1 in arrGoods">
+			<i ng-class="{true:'showPinkBack',false:'showWhiteBack'}[backImg]"></i>
+			<img src="{{obj1.obj.goods_thumb}}"/>
+			<p>{{obj1.obj.goods_name}}</p>
+			<p>规格:默认</p>
+			<span>￥{{obj1.obj.shop_price}}</span>
+			<a>{{obj1.count}}</a>
+		</li>
+	</ul>
 	<div id="shopCarBottom">
 		<i ng-click="changeBack()" ng-class="{true:'showPinkBack',false:'showWhiteBack'}[backImg]"></i>
 		<span>全选</span>
 		<span>合计:</span>
-		<span>￥0.00</span>
+		<span>￥{{sum}}</span>
 		<span>结算</span>
 	</div>
 

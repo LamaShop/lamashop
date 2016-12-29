@@ -101,21 +101,21 @@ html,body{
     position: relative;
     }
 @keyframes textRun {
-    0%{top: 0;transition: 1s linear;}
-    9%{top: -15px;transition: 1s linear;}
-    18%{top: -30px;transition: 1s linear;}
-    36%{top: -45px;transition: 1s linear;}
-    45%{top: -60px;transition: 1s linear;}
-    54%{top: -75px;transition: 1s linear;}
-    63%{top: -90px;transition: 1s linear;}
-    72%{top: -105px;transition: 1s linear;}
-    81%{top: -120px;transition: 1s linear;}
-    90%{top: -135px;transition: 1s linear;}
-    100%{top: -150px;transition: 1s linear;}
+    0%{top: 0;transition: linear 1s;}
+    9%{top: -15px;transition:  linear 1s;}
+    18%{top: -30px;transition: linear 1s;}
+    36%{top: -45px;transition: linear 1s;}
+    45%{top: -60px;transition: linear 1s;}
+    54%{top: -75px;transition: linear 1s;}
+    63%{top: -90px;transition: linear 1s;}
+    72%{top: -105px;transition: linear 1s;}
+    81%{top: -120px;transition: linear 1s;}
+    90%{top: -135px;transition: linear 1s;}
+    100%{top: -150px;transition: linear 1s;}
 
 
 }
-.scroll>div>ul{position: absolute;animation: textRun 20s linear infinite;border-left: 1px solid #d2d2d2;padding-left: 0.5rem;}
+.scroll>div>ul{position: absolute;animation: textRun 60s linear infinite;border-left: 1px solid #d2d2d2;padding-left: 0.5rem;}
 .scroll>div>ul>li{width:14.8rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 
 .show{
@@ -353,15 +353,15 @@ html,body{
     height:2.6rem;
 
 }
-.scrollTop{
-    display: block;
-    width:2rem;
-    height: 2rem;
-    position: fixed;
-    top:20rem;
-    right:1rem;
-    z-index: 12;
-    background-image: url("../../img/top.jpg");
-    background-size: 100% 100%;
-    border-radius: 50%;
-}
+/*.scrollTop{*/
+    /*display: block;*/
+    /*width:2rem;*/
+    /*height: 2rem;*/
+    /*position: fixed;*/
+    /*top:20rem;*/
+    /*right:1rem;*/
+    /*z-index: 12;*/
+    /*background-image: url("../../img/top.jpg");*/
+    /*background-size: 100% 100%;*/
+    /*border-radius: 50%;*/
+/*}*/
